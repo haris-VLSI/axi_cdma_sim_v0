@@ -1,0 +1,16 @@
+MESSAGE_SP VCP2124 "Package uvm_pkg found in library uvm_1_2."
+WARNING VCP5010 "Redefinition of the macro DATA_WIDTH." "../CDMA_TB/axi_slave/slave_intf.sv" 3  29
+WARNING VCP1003 "End of multi-line comment (*/) expected at the end of file." "../CDMA_TB/axi_slave/slave_driver.sv" 363  1
+WARNING VCP2947 "Default parameter values used for class uvm_sequencer specialization." "../CDMA_TB/common/virtual_sequencer.sv" 1  47
+WARNING VCP2947 "Default parameter values used for class uvm_sequence specialization." "../CDMA_TB/common/virtual_sequence.sv" 1  50
+WARNING VCP2947 "Default parameter values used for class uvm_sequence specialization." "../CDMA_TB/top/ral_seq.sv" 1  44
+WARNING VCP2947 "Default parameter values used for class uvm_sequence specialization." "../CDMA_TB/top/ral_seq.sv" 29  45
+WARNING VCP2900 "Conditional expression 128>64 at 'if' statement is constant." "../CDMA_TB/axi_lite/master_seq_item.sv" 21  1
+WARNING VCP2900 "Conditional expression 128>64 at 'if' statement is constant." "../CDMA_TB/axi_lite/master_seq_item.sv" 21  1
+WARNING VCP7076 "Argument BUS_BYTES should be an integer." "../CDMA_TB/common/cdma_checker.sv" 210  32
+WARNING VCP2631 "Left index of part-select is out of range." "../CDMA_TB/top/cdma_tb_top.sv" 213  35
+WARNING VCP2632 "Right index of part-select is out of range." "../CDMA_TB/top/cdma_tb_top.sv" 213  35
+WARNING VCP2631 "Left index of part-select is out of range." "../CDMA_TB/top/cdma_tb_top.sv" 223  45
+WARNING VCP2632 "Right index of part-select is out of range." "../CDMA_TB/top/cdma_tb_top.sv" 223  45
+ERROR VCP5103 "Undeclared identifier: DATA_WIDTH." "../CDMA_TB/common/cdma_checker.sv" 27  39
+FAILURE "Compile failure 1 Errors 13 Warnings  Analysis time: 9[s]."

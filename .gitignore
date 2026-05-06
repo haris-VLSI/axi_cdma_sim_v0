@@ -6,3 +6,6 @@ work/
 vivado*
 x*
 uvm*
+srcs*
+sim*
+riviera*

@@ -1,0 +1,1 @@
+$.extend(true,Report.tree_data,{"cvg":{"du-71":{"id":"cvg_du-71","text":"xpm.VCOMPONENTS","icon":"unit-package-vhdl","a_attr":{"class":"jstree-excluded"},"children":[]}}});Report.cvg_data['du-71'] ={"cvg":[],"summary":{"statistics":[],"wa_recursive":"100.000%"},"source_per_item":{"du-71":["./srcs/rtl/xpm/xpm_VCOMP.vhd",11]},"coverage":{"./srcs/rtl/xpm/xpm_VCOMP.vhd":{"cvg":{}}}};

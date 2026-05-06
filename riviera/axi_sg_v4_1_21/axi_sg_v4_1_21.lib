@@ -1,0 +1,456 @@
+timestamp=1752860112879
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=260|0axi_sg_v4_1_21.mgf|525308|0
+1=37|1axi_sg_v4_1_21.mgf|553722|0
+3=37|3axi_sg_v4_1_21.mgf|222815|0
+
+[axi_sg]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|28873|1*553722
+BinL64/implementation=3*222815
+I=0*495629
+I/implementation=0*525308
+M=11|1|vfb|1752860112670|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*487015*0xcbeeea8594d95650aeb42839ef6bf654d00c1c46|0*495499*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112675|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*495980*0x728d8dc4781651a53af3fd110acf9be007de948b|0*525160*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|28545
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|357151c79d182f0959dc9feb8201117aa3086b590dce3845d9035195be6aa390
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93d6c41160475380befc5928a855b876ff
+
+[axi_sg_addr_cntl]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|4763|1*73584
+BinL64/implementation=3*43465
+I=0*80712
+I/implementation=0*88387
+M=11|1|vfb|1752860111299|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*78695*0x85ec100fda7a2ddc9e269d0fa554caa4e25a5bbf|0*80572*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111301|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*80961*0x50bebaba42ef6a2aa9801a626da74d9268622a44|0*88229*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|4574
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|2ba36e84161f59fd681da975b402eacf248b6f66b76df906f1af07e61fa1b6e62e736cf10b1b05dff85a50116d2ad8e1
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93aa448a859219e86c4b5e45b21d10d183
+
+[axi_sg_afifo_autord]
+A/imp=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|1515|1*22153
+BinL64/imp=3*6598
+I=0*20736
+I/imp=0*26160
+M=11|1|vfb|1752860111227|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*19293*0x66803b16d3a385a73af7a299aecff6528507a764|0*20593*0xaeff33d0d327e4f66feab22160c8fa0a
+M/imp=21|1|vfb|1752860111229|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*21067*0x41ac66d42b7635f54473241b1888105686326342|0*26010*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|1475
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|3716a770e257f38996b4baf8833a97b75b0c3dff6111e4de65fb815d0fc8b2322d891b1cf51fc5e457486a95f24ad580
+Version/imp=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|d281f7a0ebd67a0f3ace0230f6f62941f821303140427bbc6b15bcbb8e717924
+
+[axi_sg_cmd_status]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|2906|1*50915
+BinL64/implementation=3*17407
+I=0*42186
+I/implementation=0*46884
+M=11|1|vfb|1752860111248|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*40651*0xfa8bf59fb0a17d0e059163216fefdf3941caefdd|0*42045*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111250|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*42436*0xf3f3c74ecd37ae6f6ccb796a170b6f3c200c5828|0*46725*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|2800
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f3a2361eee5ef7abc617dd14518d3d51fdbab682b05b7d5ce90b46b51234e87bedef1ad0ddffafec2334a7a8df8ce4e1
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93be5ad6fd43294f9004c93d206dac0991
+
+[axi_sg_cntrl_strm]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|20848|1*365821
+BinL64/implementation=3*153360
+I=0*335003
+I/implementation=0*342895
+M=11|1|vfb|1752860112591|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*333620*0xedfc11ee91d340a0e79db251076195025706c906|0*334862*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112593|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*335395*0x7c710588ccc5dc0f4d7bfe62157f9093d2a5c0cc|0*342736*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|20794
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|3df398149823e9c5fcb548cd6d2efa0a3bdf02e4b0308a7e3c213b8c700a6d6740ef25335a84ad635d3d976acccb8cef
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93e109d0919da1f779cd41068e69e8899e
+
+[axi_sg_datamover]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|17928|1*305855
+BinL64/implementation=3*133657
+I=0*282184
+I/implementation=0*293360
+M=11|1|vfb|1752860111448|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*276155*0xd365a92f4cafe3d19018c3dbdf494b55ea23dfcc|0*282044*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111453|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*282433*0x3be0ce9b5993a1c5c2d0ad44dcdbb4f7b75049d8|0*293202*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|17487
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|988846283c73c32f421db2014bef668321fabe02c51d538ec43a7e4ed1917ee00d5a50d6077d3e3b8312fcb7829ac562
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93a89fdd6a35b97078411410a7957b1651
+
+[axi_sg_fifo]
+A/imp=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|2109|1*38573
+BinL64/imp=3*13345
+I=0*31458
+I/imp=0*39688
+M=11|1|vfb|1752860111240|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*30261*0x8131657338a045122a54d21c4aebc4d5eb27eb63|0*31323*0xaeff33d0d327e4f66feab22160c8fa0a
+M/imp=21|1|vfb|1752860111243|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*31814*0x65ad9ccd997cfa5943e5c2969d7df399cbf44f3f|0*39546*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|2052
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|424df4f12bed40947aecd88f867e57c475082c9861ecc5495b580ffdc19b25a0387196ab5b512458b8bab555b1810f84
+Version/imp=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|d281f7a0ebd67a0f3ace0230f6f62941c7101b988ba309f8a2aee2fac5d21562
+
+[axi_sg_ftch_cmdsts_if]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|20120|1*348346
+BinL64/implementation=3*149790
+I=0*319107
+I/implementation=0*322275
+M=11|1|vfb|1752860112579|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*317664*0x0ab308350da2ade0b721da2b685931a34694a071|0*318962*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112581|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*319473*0x4db55b3a6ca88ffb1838ff6bd0f855c158374dee|0*322112*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|20070
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|905afe6b68d1a801d17b1a06096039f563db75607f3b12e68e17f171cd4ace92a12343cf65c41fa03e16148d47cd982d
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93023b89e2f7128e840eb71744a81f865e
+
+[axi_sg_ftch_mngr]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|20483|1*353248
+BinL64/implementation=3*152345
+I=0*326819
+I/implementation=0*332703
+M=11|1|vfb|1752860112585|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*323420*0x60f318bc92ea7f988e765532b2e5a614134a3dbc|0*326679*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112587|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*327180*0xd024a8caa714a876e9590d166f64814a66a986fb|0*332545*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|20350
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|00b48e534754663cbe6df28ea9adae0de2f1b68bbf193f2fc28153ec0f065d06ed460b112176a1a5254ec1bdd6029aa9
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb930ac451d25185051d67f798df3ce0e1f3
+
+[axi_sg_ftch_noqueue]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|22458|1*422059
+BinL64/implementation=3*170098
+I=0*369826
+I/implementation=0*378222
+M=11|1|vfb|1752860112607|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*366527*0x823dee6b5132a4f056f711d95d2fc7fe79539c3d|0*369683*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112609|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*370147*0x3610da5a8e8da9a12ca13939dc0beef70c23c28f|0*378061*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|22339
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|00b48e534754663cbe6df28ea9adae0d7714ff72357415e9967891be1f016aa5dd365e77114d851c8a9dd5b68172d541
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb934d18f00c7ac9267fa162d37e51cb0257
+
+[axi_sg_ftch_pntr]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|19711|1*341833
+BinL64/implementation=3*144598
+I=0*311507
+I/implementation=0*316862
+M=11|1|vfb|1752860112074|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*309737*0x95d9ca3e5f2db5bffe531211199468fb204d1660|0*311367*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112076|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*311868*0x6ec128166403c6bc2fb0e247c22dfa055400580a|0*316704*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|19627
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|7eb4eba8789b447d93691dea082c02965fb6bac0a9f334a0bf8b898ce16cd6037fb061ec9acf8cee48070f0bd3b9d0f1
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb931b3ce3f61e2c98314abba5b24f85217b
+
+[axi_sg_ftch_q_mngr]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|23056|1*438599
+BinL64/implementation=3*177187
+I=0*383076
+I/implementation=0*401716
+M=11|1|vfb|1752860112614|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*379418*0xc44ad83cb44247440543fecdc36b7c9653e8f3a7|0*382934*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112620|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*383396*0x4e3b244d88b4eb98e6582298549a6cee3040418b|0*401556*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|22903
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|7eb4eba8789b447d93691dea082c0296bdf37d9497a21686e965bb025cdb2debce791b9591b6a2dee944baa04210c3a9
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93fe6e764ec75241a5e287f79348dbfb71
+
+[axi_sg_ftch_queue]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|21485|1*382575
+BinL64/implementation=3*158162
+I=0*347760
+I/implementation=0*365339
+M=11|1|vfb|1752860112597|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*344205*0x505787718daeb41d99ceb13bb9c909f93fff06ea|0*347619*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112599|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*348119*0x47c83a4fe24ea32c94048481c3859c78572b6a24|0*365180*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|21356
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|7eb4eba8789b447d93691dea082c029613f60076e9c90027df0dda16b38f59e9f6c61adaec6d6431aed471b49e444b0b
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93e4d917f5e40c4fbdf09b7f59c7cdd022
+
+[axi_sg_ftch_sm]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|18729|1*325971
+BinL64/implementation=3*136659
+I=0*297000
+I/implementation=0*308924
+M=11|1|vfb|1752860112064|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*294349*0xd13ac7853498221987b87e3feb7873ebf305f909|0*296862*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112068|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*297359*0xdcfe9d437f7e0dc8a3003a902cf809ada2fbce9f|0*308768*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|18620
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|7eb4eba8789b447d93691dea082c0296183a02950087c5c595dd0af294ccd302f0eff33a156e04dbf63ba7068419193c
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93f0eff33a156e04dbf63ba7068419193c
+
+[axi_sg_intrpt]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|28044|1*542823
+BinL64/implementation=3*217139
+I=0*476138
+I/implementation=0*485248
+M=11|1|vfb|1752860112664|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*474373*0x9e1766ee764c06e444fd73d306ef0a075e328588|0*476001*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112666|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*476496*0xf9c7b9195508e9fcf25280df0be721086063782d|0*485093*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|27981
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|848ca6f74a16a981514b061ad062fd1189f7388e6874f798fb5e9919a5a59aa1d8a9f8b9d7c3d9c682d3651e7076d76e
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb931ce23272c3782ab6af0452f5033ce57d
+
+[axi_sg_mm2s_basic_wrap]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|15771|1*248523
+BinL64/implementation=3*126556
+I=0*238335
+I/implementation=0*253072
+M=11|1|vfb|1752860111424|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*235191*0x7f8f6025f1889fc98ba8df4e5e5867b99d352554|0*238189*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111430|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*238590*0x144cc83496563acef4935aafa11edca8ca301d9c|0*252908*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|15552
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|4cc47db5d28b9288dd1a802abbad94114a0d56a374ff1f5edd32656eab3ec6f5f42b0d90d19d07045bc880fe20440b15
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb937f500fa2775f24f0ad89d3e343cc212f
+
+[axi_sg_pkg]
+BinL64/axi_sg_pkg=3*0
+E=1*0
+I=0*2855
+I/axi_sg_pkg=0*4003
+M=3|1|vfb|1752860111197|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*771*0x725c407649435012bb547c52faee809682094658|0*2721*0xaeff33d0d327e4f66feab22160c8fa0a
+M/axi_sg_pkg=4|1|vfb|1752860111200|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*3098*0x472f081482ef5f817439aa28a322d414fd34c252|0*3856*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|60
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|b5c7846fa5958a95a1559e1b5aede77181ec729534bde1f23e83aade73e547b26e33da0186d7f2913da00d445563f239
+Version/axi_sg_pkg=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|b5c7846fa5958a95a1559e1b5aede77181ec729534bde1f23e83aade73e547b26e33da0186d7f2913da00d445563f239
+
+[axi_sg_rd_status_cntl]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|7300|1*107394
+BinL64/implementation=3*51405
+I=0*103869
+I/implementation=0*107823
+M=11|1|vfb|1752860111313|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*102726*0x59e68e0f4fdd163aab628d666a799e42cf915298|0*103724*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111315|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*104123*0xc9a6189c03dfa156f20d319f4e702d6909409b7b|0*107660*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|7180
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|52b75b2a179bec64fa486a0265753d0187076fbfd64da4550ce1d8fac27e4db8ec1d5dc6b3dc4af3afcf000c5d7a88b3
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb931d61ef43e81a6730da1d591f6a714ef2
+
+[axi_sg_rddata_cntl]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|5689|1*87844
+BinL64/implementation=3*47246
+I=0*92248
+I/implementation=0*102058
+M=11|1|vfb|1752860111305|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*89389*0x58b3e8217c855ade448f606dcb6adcffe4231073|0*92106*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111308|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*92499*0x477de8f8e6dfe600284bec2555d68c7143ea346e|0*101898*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|5398
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|ce12e1a69d0313d92b1cbedb06b3824eb689a78bf59e0ba1debf0a568efa9a9efe060c6ea907be8e0e61b6d2fbbd17f6
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb936c360819b3a503ff723706a8ef071dae
+
+[axi_sg_rdmux]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|3369|1*60583
+BinL64/implementation=3*19217
+I=0*48216
+I/implementation=0*77869
+M=11|1|vfb|1752860111254|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*47492*0x4cf7e952256a4012640fd8e99ede0d8b847f85eb|0*48080*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111263|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*48461*0x064f98b788815ded3daf42faf83e91fe1f6123dc|0*77715*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|3326
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|711738978d85ada78451861cc13dd3339e498d4400e11573cfe70da87ef256090f1db07a7bfc51dcbce797cbe7a5d2f5
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb9316e2c63bf3f0f18e72a9bf5260298a32
+
+[axi_sg_reset]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|363|1*3697
+BinL64/implementation=3*575
+I=0*5517
+I/implementation=0*10899
+M=11|1|vfb|1752860111204|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*4591*0xf356c0c6284a1c78a0eb6c37a6fcab0809e7093a|0*5381*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111206|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*5762*0xde68843e71b32a92a7f824f9bb57d387937c2875|0*10745*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|284
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|0026cecf6d95493fb56e57ca044db4609d3e594427ec4a55f73f845bf5bea7b799815aa7191f3a9de75629b95f6d211e
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93acfe374f53dd029813c57e2a343aa3d9
+
+[axi_sg_s2mm_basic_wrap]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|16699|1*275396
+BinL64/implementation=3*129845
+I=0*257653
+I/implementation=0*274566
+M=11|1|vfb|1752860111435|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*254302*0xdc32d70b9697f96b8f137c353eeceb023030186a|0*257507*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111442|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*257908*0xb32c7d7f4e072b7843276a366e91f96aa3388591|0*274402*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|16475
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|18e3dfd634191c2fe28fd13270573c8b64edb7ecf52536c1b81c538cf9225ace9f9d5c6d5268ffc36087920874f541a7
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93046841db0335e69f8a96bb778ec491d3
+
+[axi_sg_scc]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|7771|1*113032
+BinL64/implementation=3*53929
+I=0*110602
+I/implementation=0*123572
+M=11|1|vfb|1752860111319|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*108636*0x7bc0515eb0b6652b86b3f61bad835a85529ad4fc|0*110468*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111321|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*110845*0x2097d535f803454ba35d39b5ad592172031967e6|0*123420*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|7615
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|5d3b7feb49bd93c410b702b28c7c1349a8648a8f0f9a53ff750177e930e11e48716bb5d52732523f732e87a79304e25b
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93e4ce06a857645f6e79054c7e9c9ef4cd
+
+[axi_sg_scc_wr]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|10027|1*154613
+BinL64/implementation=3*84647
+I=0*159377
+I/implementation=0*172878
+M=11|1|vfb|1752860111367|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*157399*0xe27e06cfcb78e763a82f7fd7591f7104402900d5|0*159240*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111371|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*159623*0xaf75854822888de4853e52b340489b0ae7f4c9ab|0*172723*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|9871
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|c634a1404a593a630eebc124a85607a9299e308906b45a6e37f5390c626a700a54ee750dfe1041b3ef457b68e709ef72
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93e52cee3a909c3c781ebfa2649bf71d4e
+
+[axi_sg_sfifo_autord]
+A/imp=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|1015|1*9168
+BinL64/imp=3*3444
+I=0*12983
+I/imp=0*18540
+M=11|1|vfb|1752860111219|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*11586*0x50a2b60c4632bc6bd5be581a521fdebef9a3e8fc|0*12840*0xaeff33d0d327e4f66feab22160c8fa0a
+M/imp=21|1|vfb|1752860111221|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*13314*0x056be8a9a76b1bfb546db1543953028ca0d461d6|0*18390*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|958
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|d777bfec7ea8028e87be1615d2a1ae6e0f1e2a0c91e461aac43175a005a41dca4aa8799974c49b74f26072d0dab8c866
+Version/imp=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|d281f7a0ebd67a0f3ace0230f6f62941c6eeeea26d5aee7c9cd21b41353fb73a
+
+[axi_sg_skid2mm_buf]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|10961|1*179287
+BinL64/implementation=3*93952
+I=0*174581
+I/implementation=0*179904
+M=11|1|vfb|1752860111380|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*173495*0x35c5abea215538522fa0da58ee2a3da82e22c76f|0*174439*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111382|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*174832*0xd4121bf5322442556ef16bde9b306094ef28712e|0*179744*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|10917
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|32a60a09be2918658f6a7928f5dd51a2b87d7c89544c4c86617f359be0cc99384d7791fc6b83610f70a9744eba2ac58b
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93f27c5d2a1e28851da0820d9061799f19
+
+[axi_sg_skid_buf]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|15041|1*240966
+BinL64/implementation=3*121997
+I=0*227975
+I/implementation=0*234172
+M=11|1|vfb|1752860111417|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*227078*0x5df4a37d58b9d446a22536a59407e1b71cc6c2e4|0*227836*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111419|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*228223*0x7eae07c39a199057389f4655eafa0a38b59e0c7d|0*234015*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|15000
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|80eee2404e9a8903ac265c2a78b9bbeb23ea6a6fc107cfca47ce653ba2fac0c0fbbc67cd15e3543710e8e3fb14644318
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93828e5fc743b73e70a7f44a70972c7c37
+
+[axi_sg_updt_cmdsts_if]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|24011|1*464921
+BinL64/implementation=3*187581
+I=0*403858
+I/implementation=0*406751
+M=11|1|vfb|1752860112626|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*402526*0xaa002f7802b107a474b9e0a26c010d04fa736ab1|0*403713*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112628|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*404224*0xac71cecb622cfcf30e1dfffb0b0dea509f6d44fd|0*406588*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|23967
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|6d754a5df342532ed5cb4f8fa8442ccfd0421fcdc4f91fa29526affbbcaff4e3efe7aa04084b529909994d40d719ab25
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93d246b7db3cdaffdd242c409648de0f55
+
+[axi_sg_updt_mngr]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|25230|1*483286
+BinL64/implementation=3*197573
+I=0*425529
+I/implementation=0*429598
+M=11|1|vfb|1752860112638|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*422938*0x554ae2eeeab258e2ebc44cb7526d40b2fcee20b1|0*425389*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112640|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*425890*0x89c97f046cfa7783d529b8704a6f99123bf4604c|0*429440*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|25128
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|b7dec60d38add377d23c6d22008c914f3fbe03589a33808d34dc8ec961f8ae77bbcdf1a8b27e7970b5447dd81b6f2ffc
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb9320136e83c09b3d83c0421569174015c2
+
+[axi_sg_updt_noqueue]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|26785|1*520431
+BinL64/implementation=3*210075
+I=0*454333
+I/implementation=0*463450
+M=11|1|vfb|1752860112651|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*451852*0x85e086c9dae5cb444015a92f8f5db15859780a8b|0*454190*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112653|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*454654*0x736c82fbd3639a6782cce8b93002c1936c2cd245|0*463289*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|26686
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|b7dec60d38add377d23c6d22008c914fa53cc0be02ba5ef06c402fc49902ef9a7cf31a2312ddd61ee93bc72dbd40b8ac
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93b92a93bf1f056883d0713366ef60447d
+
+[axi_sg_updt_q_mngr]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|27446|1*531265
+BinL64/implementation=3*216375
+I=0*467389
+I/implementation=0*473561
+M=11|1|vfb|1752860112658|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*464419*0xff7b5518dc97d5ed54d38517a6b68b6d0efe9e3f|0*467247*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112660|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*467709*0x871d58a76c502e7f1fdcc6a43b62a7e855f72fb6|0*473401*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|27307
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|53d468f6e1994f1ae00820e82760cd7a4a581643cd45d1779b03ea62bb44577d2fd44fc49b026d756f509afb2e695fe4
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93d6784160ceffde4a35d5140bb5159d40
+
+[axi_sg_updt_queue]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|25576|1*491803
+BinL64/implementation=3*198184
+I=0*433488
+I/implementation=0*450950
+M=11|1|vfb|1752860112644|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*430663*0x8cb6c5398bb456f28357dd410dc9300db80af4cf|0*433347*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112646|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*433847*0xf2bf08d6c9b43edd6d96493d7a30d204e3e4ae44|0*450791*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|25456
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|53d468f6e1994f1ae00820e82760cd7a14f9abdfc67795097224aa5afad0e5fd09d985f351e32bc8ae58da028b6e345b
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb934f50f2eafe3428b11bb631c73c20db0a
+
+[axi_sg_updt_sm]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|24320|1*468870
+BinL64/implementation=3*189675
+I=0*410127
+I/implementation=0*421960
+M=11|1|vfb|1752860112632|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*407695*0x2b96bd3652f78bcf3cda9f79ccd7168673a15b2c|0*409989*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860112634|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*410486*0x420a05337269259e2e88ebf1f11fd1299c49bcec|0*421804*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|24223
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|53d468f6e1994f1ae00820e82760cd7ab92522e609f7356f590b3359898b323bdc1bd097faddc01a686e170795e5d397
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93dc1bd097faddc01a686e170795e5d397
+
+[axi_sg_wr_demux]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|8634|1*137171
+BinL64/implementation=3*62952
+I=0*124874
+I/implementation=0*156587
+M=11|1|vfb|1752860111330|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*124137*0x192d25ac4bd6b0668ad072dd633118d53f4bd2d3|0*124735*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111339|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*125122*0x62c2813ec24b3a9077a4616ae7a32701e164f34f|0*156430*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|8586
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|bd7d1070e3f6509716edc33420afbffe7404c6596e152d07ce5172877ea040123d6d6d6aa12184d839403d214b824454
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93b372db8bbfe2a4b43707bb9ad026c413
+
+[axi_sg_wr_status_cntl]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|13762|1*217121
+BinL64/implementation=3*112271
+I=0*208655
+I/implementation=0*226457
+M=11|1|vfb|1752860111404|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*207031*0x8fd9217da1c7004b07159522c1149e2336bfade8|0*208510*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111409|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*208909*0xa45eda834d494ee0013c9d1b2abdbf999c7e0adf|0*226294*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|13582
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|9d4d1c0b63fc320ba6f666f5e09840e8fc9e55faf38401666feab147192cd3cf7eec67f25fc50e1e26457cfd9362cf51
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb93a1e41e6e5ab0005d48e09383b5bf75d6
+
+[axi_sg_wrdata_cntl]
+A/implementation=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|11727|1*186108
+BinL64/implementation=3*98344
+I=0*183913
+I/implementation=0*206183
+M=11|1|vfb|1752860111387|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*180995*0xa90054ebf113c67c64794a9770888edd8ca50205|0*183771*0xaeff33d0d327e4f66feab22160c8fa0a
+M/implementation=21|1|vfb|1752860111393|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*184164*0x7405919e99ad4969af27d8dfc607f7cc63187e63|0*206023*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|11416
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|2e74d953778729aa095ba063f9a995a8f92d662b07b21c6de8b1cfb9ff25a7a79777279dcf41171abf0821650b33aed6
+Version/implementation=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|f5ac8863001614f90f206103e7ca42563e22f26c8e6d4ed262726994d450fb939ff1b47463ebd0111a20132eccead15a
+
+[srl_fifo]
+A/imp=21|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|1881|1*35828
+BinL64/imp=3*10511
+I=0*27464
+I/imp=0*29656
+M=11|1|vfb|1752860111234|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*26770*0xd4cd18f55e48283d3fc27aff346154168cce4918|0*27332*0xaeff33d0d327e4f66feab22160c8fa0a
+M/imp=21|1|vfb|1752860111236|../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|0*27705*0x95165a75e35350452752b7a0d095df863ab567dc|0*29517*0x32e4393d7cc64b8bca4db8dc7d4f247c
+R=../../srcs/sources_1/bd/design_1/ipshared/b193/hdl/axi_sg_v4_1_rfs.vhd|1863
+Version=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|602721f98ba3e51972d9c9be0576e01dd369b1b4c4d65c011ef4a41028a18596445e982a4138abc38344a3e86a889d86
+Version/imp=2025.04.139 (Linux64)|00000004789c53d0b534060001b000ba|d281f7a0ebd67a0f3ace0230f6f629415f6a19bd77445ba34526f2199b4c5b30
+
+[~U]
+axi_sg=11|0*485621|
+axi_sg_addr_cntl=11|0*78129|
+axi_sg_afifo_autord=11|0*18875|
+axi_sg_cmd_status=11|0*40147|
+axi_sg_cntrl_strm=11|0*333180|
+axi_sg_datamover=11|0*275038|
+axi_sg_fifo=11|0*29901|
+axi_sg_ftch_cmdsts_if=11|0*317238|
+axi_sg_ftch_mngr=11|0*322656|
+axi_sg_ftch_noqueue=11|0*365751|
+axi_sg_ftch_pntr=11|0*309298|
+axi_sg_ftch_q_mngr=11|0*378597|
+axi_sg_ftch_queue=11|0*343377|
+axi_sg_ftch_sm=11|0*293703|
+axi_sg_intrpt=11|0*473962|
+axi_sg_mm2s_basic_wrap=11|0*234435|
+axi_sg_pkg=3|0*0|0*126
+axi_sg_rd_status_cntl=11|0*102324|
+axi_sg_rddata_cntl=11|0*88651|
+axi_sg_rdmux=11|0*47187|
+axi_sg_reset=11|0*4257|
+axi_sg_s2mm_basic_wrap=11|0*253537|
+axi_sg_scc=11|0*108092|
+axi_sg_scc_wr=11|0*156850|
+axi_sg_sfifo_autord=11|0*11159|
+axi_sg_skid2mm_buf=11|0*173139|
+axi_sg_skid_buf=11|0*226764|
+axi_sg_updt_cmdsts_if=11|0*402120|
+axi_sg_updt_mngr=11|0*422334|
+axi_sg_updt_noqueue=11|0*451324|
+axi_sg_updt_q_mngr=11|0*463786|
+axi_sg_updt_queue=11|0*430042|
+axi_sg_updt_sm=11|0*407132|
+axi_sg_wr_demux=11|0*123830|
+axi_sg_wr_status_cntl=11|0*206487|
+axi_sg_wrdata_cntl=11|0*180214|
+srl_fifo=11|0*26495|

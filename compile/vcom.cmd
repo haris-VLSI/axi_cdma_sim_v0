@@ -1,0 +1,1 @@
+ -d /home/harish/AXI_CDMA/riviera/compile -s /home/harish/AXI_CDMA/riviera/library.cfg -work xil_defaultlib -93 -incr srcs/sources_1/bd/design_1/ip/design_1_axi_cdma_0_0/sim/design_1_axi_cdma_0_0.vhd

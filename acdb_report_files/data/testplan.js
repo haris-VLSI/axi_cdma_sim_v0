@@ -1,0 +1,1 @@
+$.extend(Report.tree_data,{"testplan":{"id":"testplan-0","text":"Cumulative","icon":"testplan","a_attr":{"class":"jstree-excluded"}}});Report.cvg_data['testplan'] ={};

@@ -1,0 +1,12 @@
+xpm_cdc.sv,systemverilog,xpm,srcs/xpm_cdc.sv,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+xpm_fifo.sv,systemverilog,xpm,srcs/xpm_fifo.sv,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+xpm_memory.sv,systemverilog,xpm,srcs/xpm_memory.sv,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+xpm_VCOMP.vhd,vhdl,xpm,srcs/xpm_VCOMP.vhd,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+axi_datamover_v5_1_vh_rfs.vhd,vhdl,axi_datamover_v5_1_37,srcs/ip/design_1/axi_datamover_v5_1_37/axi_datamover_v5_1_vh_rfs.vhd,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+axi_sg_v4_1_rfs.vhd,vhdl,axi_sg_v4_1_21,srcs/ip/design_1/axi_sg_v4_1_21/axi_sg_v4_1_rfs.vhd,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+axi_cdma_v4_1_vh_rfs.vhd,vhdl,axi_cdma_v4_1_35,srcs/ip/design_1/axi_cdma_v4_1_35/axi_cdma_v4_1_vh_rfs.vhd,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+design_1_axi_cdma_0_0.vhd,vhdl,xil_defaultlib,srcs/ip/design_1/xil_defaultlib/design_1_axi_cdma_0_0.vhd,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+design_1.v,verilog,xil_defaultlib,srcs/ip/design_1/xil_defaultlib/design_1.v,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+design_1_wrapper.v,verilog,xil_defaultlib,srcs/design_1_wrapper.v,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+top.sv,verilog,xil_defaultlib,srcs/top.sv,incdir="../../../../../opt/xilinx/2025.1/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v

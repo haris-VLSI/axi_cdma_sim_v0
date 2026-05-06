@@ -1,0 +1,1 @@
+$.extend(Report.tree_data,{"cvg-all":{"id":"cvg","text":"Cumulative","icon":"cumulative","a_attr":{"class":"jstree-low"},"children":[]}});Report.cvg_data['cvg-all'] ={"cvg":[],"source_per_item":{},"coverage":{}};

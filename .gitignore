@@ -1,0 +1,8 @@
+*.awc
+work/
+64mb*
+1mb*
+1MB*
+vivado*
+x*
+uvm*

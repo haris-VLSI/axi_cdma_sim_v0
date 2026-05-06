@@ -1,0 +1,1925 @@
+# Aldec, Inc. Riviera-PRO version 2025.04.139.9738 built for Linux64 on May 30, 2025.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2025 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_sync" instantiated in architecture "axi_cdma_v4_1_35.axi_cdma_sfifo_autord(imp)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_sync" instantiated in architecture "axi_cdma_v4_1_35.axi_cdma_sf(implementation)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_async" instantiated in architecture "axi_sg_v4_1_21.axi_sg_afifo_autord(imp)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_sync" instantiated in architecture "axi_sg_v4_1_21.axi_sg_sfifo_autord(imp)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_sync" instantiated in architecture "axi_sg_v4_1_21.axi_sg_updt_queue(implementation)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_cdc_single" instantiated in architecture "axi_sg_v4_1_21.axi_sg_cntrl_strm(implementation)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_sync" instantiated in architecture "axi_sg_v4_1_21.axi_sg_cntrl_strm(implementation)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_sync" instantiated in architecture "axi_sg_v4_1_21.axi_sg_ftch_queue(implementation)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_cdc_single" instantiated in architecture "axi_cdma_v4_1_35.axi_cdma_pulse_gen(implementation)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_cdc_single" instantiated in architecture "axi_cdma_v4_1_35.axi_cdma_reg_module(implementation)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_cdc_sync_rst" instantiated in architecture "axi_cdma_v4_1_35.axi_cdma_reset(implementation)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_cdc_sync_rst" instantiated in architecture "axi_datamover_v5_1_37.axi_datamover_reset(implementation)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_sync" instantiated in architecture "axi_datamover_v5_1_37.axi_datamover_sfifo_autord(imp)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_async" instantiated in architecture "axi_datamover_v5_1_37.axi_datamover_afifo_autord(imp)" differ from the contents available during the compilation of this architecture.
+# ELBREAD: Warning: ELBREAD_0049 The "uvm_pkg" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "std" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 1.8 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/opt/Aldec/Riviera-PRO-2025.04-x64/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Info: Loading library:  /opt/Aldec/Riviera-PRO-2025.04-x64/bin/uvm_1_2_dpi
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
+# SLP: 0 primitives and 428 (13.86%) other processes in SLP
+# SLP: 927 (2.17%) signals in SLP and 1353 (3.17%) interface signals
+# ELAB2: Elaboration final pass complete - time: 4.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 53194 kB (elbread=2674 elab2=40599 kernel=9921 sdf=0)
+# KERNEL: UVM_INFO ./uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# KERNEL: ----------------------------------------------------------------
+# KERNEL: UVM-1.2
+# KERNEL: (C) 2007-2014 Mentor Graphics Corporation
+# KERNEL: (C) 2007-2014 Cadence Design Systems, Inc.
+# KERNEL: (C) 2006-2014 Synopsys, Inc.
+# KERNEL: (C) 2011-2013 Cypress Semiconductor Corp.
+# KERNEL: (C) 2013-2014 NVIDIA Corporation
+# KERNEL: ----------------------------------------------------------------
+# KERNEL: 
+# KERNEL:   ***********       IMPORTANT RELEASE NOTES         ************
+# KERNEL: 
+# KERNEL:   You are using a version of the UVM library that has been compiled
+# KERNEL:   with `UVM_NO_DEPRECATED undefined.
+# KERNEL:   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# KERNEL: 
+# KERNEL:   You are using a version of the UVM library that has been compiled
+# KERNEL:   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+# KERNEL:   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# KERNEL: 
+# KERNEL:       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# KERNEL: 
+# KERNEL: ASDB file was created in location /home/harish/AXI_CDMA/riviera/dataset.asdb
+# KERNEL: UVM_INFO @ 0: reporter [RNTST] Running test simple_dma_int_error_test...
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC/I_S2MM_BASIC_WRAPPER/I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC/I_S2MM_BASIC_WRAPPER/I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC/I_S2MM_BASIC_WRAPPER/I_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT/I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC/I_S2MM_BASIC_WRAPPER/I_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT/I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC/I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL,  Process: line__13136.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_MM2S_FULL/I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO/I_ADDR_QUAL_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_MM2S_FULL/I_MM2S_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO/I_ADDR_QUAL_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_MM2S_FULL/I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL,  Process: line__13101.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_MM2S_FULL/I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO/I_DATA_CNTL_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_MM2S_FULL/I_MM2S_FULL_WRAPPER/I_RD_DATA_CNTL/GEN_DATA_CNTL_FIFO/I_DATA_CNTL_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_S2MM_FULL/I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_S2MM_FULL/I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/I_WRESP_STATUS_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_S2MM_FULL/I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT/I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_S2MM_FULL/I_S2MM_FULL_WRAPPER/I_WR_STATUS_CNTLR/GEN_OMIT_INDET_BTT/I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_S2MM_FULL/I_S2MM_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO/I_ADDR_QUAL_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_S2MM_FULL/I_S2MM_FULL_WRAPPER/I_ADDR_CNTL/GEN_ADDR_FIFO/I_ADDR_QUAL_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_S2MM_FULL/I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL,  Process: line__17231.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_S2MM_FULL/I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/GEN_DATA_CNTL_FIFO/I_DATA_CNTL_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_S2MM_FULL/I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/GEN_DATA_CNTL_FIFO/I_DATA_CNTL_FIFO/USE_SRL_FIFO/I_SYNC_FIFO,  Process: line__1954.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/GEN_INCLUDE_SF/I_STORE_FORWARD/I_DATA_FIFO,  Process: line__6000.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 0 ps,  Iteration: 8,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/I_DATAMOVER/GEN_MM2S_FULL/I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_DRE/I_DRE_16_to_64/GEN_MUXFARM_128,  Process: line__34191.
+# KERNEL: WARNING: NUMERIC_STD."<=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 10,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/GEN_INCLUDE_SF/I_STORE_FORWARD,  Process: line__7241.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 10,  Instance: /top/dut/design_1_i/axi_cdma_0/U0/GEN_SG_MODE/I_SG_MODE_WRAP/GEN_INCLUDE_SF/I_STORE_FORWARD,  Process: line__7142.
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_base_test.sv(17) @ 0: uvm_test_top [test::build_phase] build
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_env.sv(24) @ 0: uvm_test_top.env [cdma_env::build] build
+# KERNEL: UVM_INFO ./uvm-1.2/src/base/uvm_spell_chkr.svh(123) @ 0: reporter [UVM/CONFIGDB/SPELLCHK] include_coverage not located, did you mean config_obj|reset_if
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_agent.sv(24) @ 0: uvm_test_top.env.m_agt[0] [master_agent] build
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(30) @ 0: uvm_test_top.env.m_agt[0].mon [uvm_test_top.env.m_agt[0].mon] build
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_agent.sv(23) @ 0: uvm_test_top.env.s_agt[0] [slave_agent] build
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(31) @ 0: uvm_test_top.env.s_agt[0].mon [uvm_test_top.env.s_agt[0].mon] build
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_agent.sv(23) @ 0: uvm_test_top.env.s_agt[1] [slave_agent] build
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(31) @ 0: uvm_test_top.env.s_agt[1].mon [uvm_test_top.env.s_agt[1].mon] build
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_agent.sv(34) @ 0: uvm_test_top.env.m_agt[0] [master_agent::connect] connect
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_agent.sv(34) @ 0: uvm_test_top.env.s_agt[0] [slave_agent::connect] connect
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_agent.sv(34) @ 0: uvm_test_top.env.s_agt[1] [slave_agent::connect] connect
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_env.sv(57) @ 0: uvm_test_top.env [cdma_env::connect] inside_cdma_env_connect_phase
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_env.sv(84) @ 0: uvm_test_top.env [CONNECT] map -> sequencer_set_for_master 0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_env.sv(91) @ 0: uvm_test_top.env [CONNECT] mon_ap connected for master 0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_env.sv(111) @ 0: uvm_test_top.env [CONNECT] slave driver connected for slave 0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_env.sv(111) @ 0: uvm_test_top.env [CONNECT] slave driver connected for slave 1
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_base_test.sv(31) @ 0: uvm_test_top [test::end_of_elaboration] end_of_elaboration
+# KERNEL: UVM_INFO ./uvm-1.2/src/base/uvm_root.svh(583) @ 0: reporter [UVMTOP] UVM testbench topology:
+# KERNEL: ----------------------------------------------------------------------------
+# KERNEL: Name                       Type                                  Size  Value
+# KERNEL: ----------------------------------------------------------------------------
+# KERNEL: uvm_test_top               simple_dma_int_error_test             -     @362 
+# KERNEL:   env                      cdma_env                              -     @377 
+# KERNEL:     chk                    cdma_chk                              -     @670 
+# KERNEL:       master_af            uvm_tlm_analysis_fifo #(T)            -     @707 
+# KERNEL:         analysis_export    uvm_analysis_imp                      -     @756 
+# KERNEL:         get_ap             uvm_analysis_port                     -     @746 
+# KERNEL:         get_peek_export    uvm_get_peek_imp                      -     @726 
+# KERNEL:         put_ap             uvm_analysis_port                     -     @736 
+# KERNEL:         put_export         uvm_put_imp                           -     @716 
+# KERNEL:       slave_af             uvm_tlm_analysis_fifo #(T)            -     @766 
+# KERNEL:         analysis_export    uvm_analysis_imp                      -     @815 
+# KERNEL:         get_ap             uvm_analysis_port                     -     @805 
+# KERNEL:         get_peek_export    uvm_get_peek_imp                      -     @785 
+# KERNEL:         put_ap             uvm_analysis_port                     -     @795 
+# KERNEL:         put_export         uvm_put_imp                           -     @775 
+# KERNEL:     cov                    cdma_cov                              -     @688 
+# KERNEL:       analysis_imp         uvm_analysis_imp                      -     @697 
+# KERNEL:     m_agt[0]               master_agent                          -     @643 
+# KERNEL:       drv                  master_driver                         -     @838 
+# KERNEL:         rsp_port           uvm_analysis_port                     -     @857 
+# KERNEL:         seq_item_port      uvm_seq_item_pull_port                -     @847 
+# KERNEL:       mon                  master_monitor                        -     @829 
+# KERNEL:         mon_ap             uvm_analysis_port                     -     @1005
+# KERNEL:       sqr                  master_sequencer                      -     @867 
+# KERNEL:         rsp_export         uvm_analysis_export                   -     @876 
+# KERNEL:         seq_item_export    uvm_seq_item_pull_imp                 -     @994 
+# KERNEL:         arbitration_queue  array                                 0     -    
+# KERNEL:         lock_queue         array                                 0     -    
+# KERNEL:         num_last_reqs      integral                              32    'd1  
+# KERNEL:         num_last_rsps      integral                              32    'd1  
+# KERNEL:     reg_predictor          uvm_reg_predictor #(master_seq_item)  -     @396 
+# KERNEL:       bus_in               uvm_analysis_imp                      -     @405 
+# KERNEL:       reg_ap               uvm_analysis_port                     -     @415 
+# KERNEL:     s_agt[0]               slave_agent                           -     @652 
+# KERNEL:       drv                  slave_driver                          -     @1034
+# KERNEL:         rsp_port           uvm_analysis_port                     -     @1053
+# KERNEL:         seq_item_port      uvm_seq_item_pull_port                -     @1043
+# KERNEL:       mon                  slave_monitor                         -     @1025
+# KERNEL:         mon_ap             uvm_analysis_port                     -     @1259
+# KERNEL:         resp_ap            uvm_analysis_port                     -     @1269
+# KERNEL:       sqr                  slave_sequencer                       -     @1063
+# KERNEL:         resp_af            uvm_tlm_analysis_fifo #(T)            -     @1200
+# KERNEL:           analysis_export  uvm_analysis_imp                      -     @1249
+# KERNEL:           get_ap           uvm_analysis_port                     -     @1239
+# KERNEL:           get_peek_export  uvm_get_peek_imp                      -     @1219
+# KERNEL:           put_ap           uvm_analysis_port                     -     @1229
+# KERNEL:           put_export       uvm_put_imp                           -     @1209
+# KERNEL:         rsp_export         uvm_analysis_export                   -     @1072
+# KERNEL:         seq_item_export    uvm_seq_item_pull_imp                 -     @1190
+# KERNEL:         arbitration_queue  array                                 0     -    
+# KERNEL:         lock_queue         array                                 0     -    
+# KERNEL:         num_last_reqs      integral                              32    'd1  
+# KERNEL:         num_last_rsps      integral                              32    'd1  
+# KERNEL:     s_agt[1]               slave_agent                           -     @661 
+# KERNEL:       drv                  slave_driver                          -     @1298
+# KERNEL:         rsp_port           uvm_analysis_port                     -     @1317
+# KERNEL:         seq_item_port      uvm_seq_item_pull_port                -     @1307
+# KERNEL:       mon                  slave_monitor                         -     @1289
+# KERNEL:         mon_ap             uvm_analysis_port                     -     @1523
+# KERNEL:         resp_ap            uvm_analysis_port                     -     @1533
+# KERNEL:       sqr                  slave_sequencer                       -     @1327
+# KERNEL:         resp_af            uvm_tlm_analysis_fifo #(T)            -     @1464
+# KERNEL:           analysis_export  uvm_analysis_imp                      -     @1513
+# KERNEL:           get_ap           uvm_analysis_port                     -     @1503
+# KERNEL:           get_peek_export  uvm_get_peek_imp                      -     @1483
+# KERNEL:           put_ap           uvm_analysis_port                     -     @1493
+# KERNEL:           put_export       uvm_put_imp                           -     @1473
+# KERNEL:         rsp_export         uvm_analysis_export                   -     @1336
+# KERNEL:         seq_item_export    uvm_seq_item_pull_imp                 -     @1454
+# KERNEL:         arbitration_queue  array                                 0     -    
+# KERNEL:         lock_queue         array                                 0     -    
+# KERNEL:         num_last_reqs      integral                              32    'd1  
+# KERNEL:         num_last_rsps      integral                              32    'd1  
+# KERNEL:     sbd                    cdma_sbd                              -     @679 
+# KERNEL:       master_af            uvm_tlm_analysis_fifo #(T)            -     @1550
+# KERNEL:         analysis_export    uvm_analysis_imp                      -     @1599
+# KERNEL:         get_ap             uvm_analysis_port                     -     @1589
+# KERNEL:         get_peek_export    uvm_get_peek_imp                      -     @1569
+# KERNEL:         put_ap             uvm_analysis_port                     -     @1579
+# KERNEL:         put_export         uvm_put_imp                           -     @1559
+# KERNEL:       slave_af             uvm_tlm_analysis_fifo #(T)            -     @1609
+# KERNEL:         analysis_export    uvm_analysis_imp                      -     @1658
+# KERNEL:         get_ap             uvm_analysis_port                     -     @1648
+# KERNEL:         get_peek_export    uvm_get_peek_imp                      -     @1628
+# KERNEL:         put_ap             uvm_analysis_port                     -     @1638
+# KERNEL:         put_export         uvm_put_imp                           -     @1618
+# KERNEL:     v_seqr                 virtual_sequencer                     -     @505 
+# KERNEL:       m_sqr_h[0]           master_sequencer                      -     @1674
+# KERNEL:         rsp_export         uvm_analysis_export                   -     @1683
+# KERNEL:         seq_item_export    uvm_seq_item_pull_imp                 -     @1801
+# KERNEL:         arbitration_queue  array                                 0     -    
+# KERNEL:         lock_queue         array                                 0     -    
+# KERNEL:         num_last_reqs      integral                              32    'd1  
+# KERNEL:         num_last_rsps      integral                              32    'd1  
+# KERNEL:       rsp_export           uvm_analysis_export                   -     @514 
+# KERNEL:       s_sqr_h[0]           slave_sequencer                       -     @1811
+# KERNEL:         resp_af            uvm_tlm_analysis_fifo #(T)            -     @1948
+# KERNEL:           analysis_export  uvm_analysis_imp                      -     @1997
+# KERNEL:           get_ap           uvm_analysis_port                     -     @1987
+# KERNEL:           get_peek_export  uvm_get_peek_imp                      -     @1967
+# KERNEL:           put_ap           uvm_analysis_port                     -     @1977
+# KERNEL:           put_export       uvm_put_imp                           -     @1957
+# KERNEL:         rsp_export         uvm_analysis_export                   -     @1820
+# KERNEL:         seq_item_export    uvm_seq_item_pull_imp                 -     @1938
+# KERNEL:         arbitration_queue  array                                 0     -    
+# KERNEL:         lock_queue         array                                 0     -    
+# KERNEL:         num_last_reqs      integral                              32    'd1  
+# KERNEL:         num_last_rsps      integral                              32    'd1  
+# KERNEL:       s_sqr_h[1]           slave_sequencer                       -     @2007
+# KERNEL:         resp_af            uvm_tlm_analysis_fifo #(T)            -     @2144
+# KERNEL:           analysis_export  uvm_analysis_imp                      -     @2193
+# KERNEL:           get_ap           uvm_analysis_port                     -     @2183
+# KERNEL:           get_peek_export  uvm_get_peek_imp                      -     @2163
+# KERNEL:           put_ap           uvm_analysis_port                     -     @2173
+# KERNEL:           put_export       uvm_put_imp                           -     @2153
+# KERNEL:         rsp_export         uvm_analysis_export                   -     @2016
+# KERNEL:         seq_item_export    uvm_seq_item_pull_imp                 -     @2134
+# KERNEL:         arbitration_queue  array                                 0     -    
+# KERNEL:         lock_queue         array                                 0     -    
+# KERNEL:         num_last_reqs      integral                              32    'd1  
+# KERNEL:         num_last_rsps      integral                              32    'd1  
+# KERNEL:       seq_item_export      uvm_seq_item_pull_imp                 -     @632 
+# KERNEL:       arbitration_queue    array                                 0     -    
+# KERNEL:       lock_queue           array                                 0     -    
+# KERNEL:       num_last_reqs        integral                              32    'd1  
+# KERNEL:       num_last_rsps        integral                              32    'd1  
+# KERNEL: ----------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_env.sv(118) @ 0: uvm_test_top.env [cdma_env::sim] start_of_simulation
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_env.sv(119) @ 0: uvm_test_top.env [RUNTIME_CHECK] auto_predict=0
+# KERNEL: ----------------------------------------------------------------------------
+# KERNEL: Name                   Type              Size  Value                        
+# KERNEL: ----------------------------------------------------------------------------
+# KERNEL: bus_map                uvm_reg_map       -     @502                         
+# KERNEL:   endian                                 ...   UVM_LITTLE_ENDIAN            
+# KERNEL:   effective sequencer  master_sequencer  ...   uvm_test_top.env.m_agt[0].sqr
+# KERNEL:   cdmacr               CDMACR            ...   @425 +'h0                    
+# KERNEL:   cdmasr               CDMASR            ...   @427 +'h4                    
+# KERNEL:   curdesc_pnt          CURDESC_PNT       ...   @429 +'h8                    
+# KERNEL:   curdesc_pnt_msb      CURDESC_PNT_MSB   ...   @431 +'hc                    
+# KERNEL:   taildesc_pnt         TAILDESC_PNT      ...   @433 +'h10                   
+# KERNEL:   taildesc_pnt_msb     TAILDESC_PNT_MSB  ...   @435 +'h14                   
+# KERNEL:   sa                   SA                ...   @437 +'h18                   
+# KERNEL:   sa_msb               SA_MSB            ...   @439 +'h1c                   
+# KERNEL:   da                   DA                ...   @441 +'h20                   
+# KERNEL:   da_msb               DA_MSB            ...   @443 +'h24                   
+# KERNEL:   btt                  BTT               ...   @445 +'h28                   
+# KERNEL: ----------------------------------------------------------------------------
+# KERNEL: -----------------------------------------------------------------------------------------------
+# KERNEL: Name                            Type              Size  Value                                  
+# KERNEL: -----------------------------------------------------------------------------------------------
+# KERNEL: reg_block                       cdma_reg_block    -     @393                                   
+# KERNEL:   cdmacr                        CDMACR            -     @425                                   
+# KERNEL:     ReserveD                    uvm_reg_field     ...    RO cdmacr[0:0]=1'h0                   
+# KERNEL:     TailPntrEn                  uvm_reg_field     ...    RO cdmacr[1:1]=1'h0                   
+# KERNEL:     Reset                       uvm_reg_field     ...    RW cdmacr[2:2]=1'h0                   
+# KERNEL:     SGMode                      uvm_reg_field     ...    RW cdmacr[3:3]=1'h0                   
+# KERNEL:     Key_Hole_Read               uvm_reg_field     ...    RW cdmacr[4:4]=1'h0                   
+# KERNEL:     Key_Hole_Write              uvm_reg_field     ...    RW cdmacr[5:5]=1'h0                   
+# KERNEL:     Cyclic_BD_Enable            uvm_reg_field     ...    RW cdmacr[6:6]=1'h0                   
+# KERNEL:     Reserved                    uvm_reg_field     ...    RO cdmacr[11:7]=5'h00                 
+# KERNEL:     IOC_IrqEn                   uvm_reg_field     ...    RW cdmacr[12:12]=1'h0                 
+# KERNEL:     Dly_IrqEn                   uvm_reg_field     ...    RW cdmacr[13:13]=1'h0                 
+# KERNEL:     Err_IrqEn                   uvm_reg_field     ...    RW cdmacr[14:14]=1'h0                 
+# KERNEL:     RESERVED                    uvm_reg_field     ...    RO cdmacr[15:15]=1'h0                 
+# KERNEL:     IRQThreshold                uvm_reg_field     ...    RW cdmacr[23:16]=8'h00                
+# KERNEL:     IRQDelay                    uvm_reg_field     ...    RW cdmacr[31:24]=8'h00                
+# KERNEL:   cdmasr                        CDMASR            -     @427                                   
+# KERNEL:     ReserveD                    uvm_reg_field     ...    RO cdmasr[0:0]=1'h0                   
+# KERNEL:     Idle                        uvm_reg_field     ...    RO cdmasr[1:1]=1'h0                   
+# KERNEL:     ReservEd                    uvm_reg_field     ...    RO cdmasr[2:2]=1'h0                   
+# KERNEL:     SGIncld                     uvm_reg_field     ...    RO cdmasr[3:3]=1'h0                   
+# KERNEL:     DMAIntErr                   uvm_reg_field     ...    RO cdmasr[4:4]=1'h0                   
+# KERNEL:     DMASlvErr                   uvm_reg_field     ...    RO cdmasr[5:5]=1'h0                   
+# KERNEL:     DMADecErr                   uvm_reg_field     ...    RO cdmasr[6:6]=1'h0                   
+# KERNEL:     ResErved                    uvm_reg_field     ...    RO cdmasr[7:7]=1'h0                   
+# KERNEL:     SGIntErr                    uvm_reg_field     ...    RO cdmasr[8:8]=1'h0                   
+# KERNEL:     SGSlvErr                    uvm_reg_field     ...    RO cdmasr[9:9]=1'h0                   
+# KERNEL:     SGDecErr                    uvm_reg_field     ...    RO cdmasr[10:10]=1'h0                 
+# KERNEL:     Reserved                    uvm_reg_field     ...    RO cdmasr[11:11]=1'h0                 
+# KERNEL:     IOC_Irq                     uvm_reg_field     ...    WC cdmasr[12:12]=1'h0                 
+# KERNEL:     Dly_Irq                     uvm_reg_field     ...    WC cdmasr[13:13]=1'h0                 
+# KERNEL:     Err_Irq                     uvm_reg_field     ...    WC cdmasr[14:14]=1'h0                 
+# KERNEL:     RESERVED                    uvm_reg_field     ...    RO cdmasr[15:15]=1'h0                 
+# KERNEL:     IRQThresholdSts             uvm_reg_field     ...    RO cdmasr[23:16]=8'h00                
+# KERNEL:     IRQDelaySts                 uvm_reg_field     ...    RO cdmasr[31:24]=8'h00                
+# KERNEL:   curdesc_pnt                   CURDESC_PNT       -     @429                                   
+# KERNEL:     Reserved                    uvm_reg_field     ...    RO curdesc_pnt[5:0]=6'h00             
+# KERNEL:     Current_Descriptor_Pointer  uvm_reg_field     ...    RW curdesc_pnt[31:6]=26'h0000000      
+# KERNEL:   curdesc_pnt_msb               CURDESC_PNT_MSB   -     @431                                   
+# KERNEL:     Current_Descriptor_Pointer  uvm_reg_field     ...    RW curdesc_pnt_msb[31:0]=32'h00000000 
+# KERNEL:   taildesc_pnt                  TAILDESC_PNT      -     @433                                   
+# KERNEL:     Reserved                    uvm_reg_field     ...    RO taildesc_pnt[5:0]=6'h00            
+# KERNEL:     Tail_Descriptor_Pointer     uvm_reg_field     ...    RW taildesc_pnt[31:6]=26'h0000000     
+# KERNEL:   taildesc_pnt_msb              TAILDESC_PNT_MSB  -     @435                                   
+# KERNEL:     Tail_Descriptor_Pointer     uvm_reg_field     ...    RW taildesc_pnt_msb[31:0]=32'h00000000
+# KERNEL:   sa                            SA                -     @437                                   
+# KERNEL:     SA                          uvm_reg_field     ...    RW sa[31:0]=32'h00000000              
+# KERNEL:   sa_msb                        SA_MSB            -     @439                                   
+# KERNEL:     SA                          uvm_reg_field     ...    RW sa_msb[31:0]=32'h00000000          
+# KERNEL:   da                            DA                -     @441                                   
+# KERNEL:     DA                          uvm_reg_field     ...    RW da[31:0]=32'h00000000              
+# KERNEL:   da_msb                        DA_MSB            -     @443                                   
+# KERNEL:     DA                          uvm_reg_field     ...    RW da_msb[31:0]=32'h00000000          
+# KERNEL:   btt                           BTT               -     @445                                   
+# KERNEL:     BTT                         uvm_reg_field     ...    RW btt[25:0]=26'h0000000              
+# KERNEL:     Reserved                    uvm_reg_field     ...    RO btt[31:26]=6'h00                   
+# KERNEL:   bus_map                       uvm_reg_map       -     @502                                   
+# KERNEL:     endian                                        ...   UVM_LITTLE_ENDIAN                      
+# KERNEL:     effective sequencer         master_sequencer  ...   uvm_test_top.env.m_agt[0].sqr          
+# KERNEL:     cdmacr                      CDMACR            ...   @425 +'h0                              
+# KERNEL:     cdmasr                      CDMASR            ...   @427 +'h4                              
+# KERNEL:     curdesc_pnt                 CURDESC_PNT       ...   @429 +'h8                              
+# KERNEL:     curdesc_pnt_msb             CURDESC_PNT_MSB   ...   @431 +'hc                              
+# KERNEL:     taildesc_pnt                TAILDESC_PNT      ...   @433 +'h10                             
+# KERNEL:     taildesc_pnt_msb            TAILDESC_PNT_MSB  ...   @435 +'h14                             
+# KERNEL:     sa                          SA                ...   @437 +'h18                             
+# KERNEL:     sa_msb                      SA_MSB            ...   @439 +'h1c                             
+# KERNEL:     da                          DA                ...   @441 +'h20                             
+# KERNEL:     da_msb                      DA_MSB            ...   @443 +'h24                             
+# KERNEL:     btt                         BTT               ...   @445 +'h28                             
+# KERNEL: -----------------------------------------------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_base_test.sv(39) @ 0: uvm_test_top [uvm_test_top] inside_reset_phase
+# KERNEL: UVM_INFO @ 0: reset_objection [OBJTN_TRC] Object uvm_test_top raised 1 objection(s): count=1  total=1
+# KERNEL: UVM_INFO @ 0: reset_objection [OBJTN_TRC] Object uvm_top added 1 objection(s) to its total (raised from source object uvm_test_top): count=0  total=1
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_base_test.sv(41) @ 0: uvm_test_top [uvm_test_top] inside_raise_objection
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(38) @ 0: uvm_test_top.env.s_agt[1].drv [uvm_test_top.env.s_agt[1].drv] reset
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(40) @ 0: uvm_test_top.env.s_agt[1].drv [uvm_test_top.env.s_agt[1].drv] slave_driver - reset_phase Driving initial values to interface
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(38) @ 0: uvm_test_top.env.s_agt[0].drv [uvm_test_top.env.s_agt[0].drv] reset
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(40) @ 0: uvm_test_top.env.s_agt[0].drv [uvm_test_top.env.s_agt[0].drv] slave_driver - reset_phase Driving initial values to interface
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(26) @ 0: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] reset
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(27) @ 0: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite reset_phase: Driving initial values to interface
+# KERNEL: UVM_INFO @ 77500: reset_objection [OBJTN_TRC] Object uvm_test_top dropped 1 objection(s): count=0  total=0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_base_test.sv(45) @ 77500: uvm_test_top [uvm_test_top] outside_drop_objection
+# KERNEL: UVM_INFO @ 77500: reset_objection [OBJTN_TRC] Object uvm_test_top all_dropped 1 objection(s): count=0  total=0
+# KERNEL: UVM_INFO @ 77500: reset_objection [OBJTN_TRC] Object uvm_top subtracted 1 objection(s) from its total (dropped from source object uvm_test_top): count=0  total=0
+# KERNEL: UVM_INFO @ 77500: reset_objection [OBJTN_TRC] Object uvm_top subtracted 1 objection(s) from its total (all_dropped from source object uvm_test_top): count=0  total=0
+# KERNEL: UVM_INFO @ 77500: main_objection [OBJTN_TRC] Object uvm_test_top raised 1 objection(s): count=1  total=1
+# KERNEL: UVM_INFO @ 77500: main_objection [OBJTN_TRC] Object uvm_top added 1 objection(s) to its total (raised from source object uvm_test_top): count=0  total=1
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/top/cdma_env.sv(125) @ 77500: uvm_test_top.env [cdma_env::main] main
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_sequencer.sv(15) @ 77500: uvm_test_top.env.v_seqr.s_sqr_h[1] [uvm_test_top.env.v_seqr.s_sqr_h[1]] slave_sequencer :: main_phase Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_sequencer.sv(15) @ 77500: uvm_test_top.env.v_seqr.s_sqr_h[0] [uvm_test_top.env.v_seqr.s_sqr_h[0]] slave_sequencer :: main_phase Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_sequencer.sv(15) @ 77500: uvm_test_top.env.s_agt[1].sqr [uvm_test_top.env.s_agt[1].sqr] slave_sequencer :: main_phase Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(35) @ 77500: uvm_test_top.env.s_agt[1].mon [uvm_test_top.env.s_agt[1].mon] main
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(238) @ 77500: uvm_test_top.env.s_agt[1].mon [slave_monitor :: capture_reset] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(50) @ 77500: uvm_test_top.env.s_agt[1].mon [slave_monitor :: capture_write_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(79) @ 77500: uvm_test_top.env.s_agt[1].mon [slave_monitor :: capture_write_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(106) @ 77500: uvm_test_top.env.s_agt[1].mon [slave_monitor :: capture_write_response] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(130) @ 77500: uvm_test_top.env.s_agt[1].mon [slave_monitor :: capture_read_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(159) @ 77500: uvm_test_top.env.s_agt[1].mon [slave_monitor :: capture_read_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(55) @ 77500: uvm_test_top.env.s_agt[1].drv [uvm_test_top.env.s_agt[1].drv] main
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(72) @ 77500: uvm_test_top.env.s_agt[1].drv [uvm_test_top.env.s_agt[1].drv] slave_driver - get packet task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(74) @ 77500: uvm_test_top.env.s_agt[1].drv [slave_driver] get packet task waiting for getting pkt from sequencer
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(97) @ 77500: uvm_test_top.env.s_agt[1].drv [uvm_test_top.env.s_agt[1].drv] slave_driver - drive_write_add task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(125) @ 77500: uvm_test_top.env.s_agt[1].drv [uvm_test_top.env.s_agt[1].drv] slave_driver - drive_write_data task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(110) @ 77500: uvm_test_top.env.s_agt[1].drv [uvm_test_top.env.s_agt[1].drv] slave_driver - drive_read_add task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(144) @ 77500: uvm_test_top.env.s_agt[1].drv [uvm_test_top.env.s_agt[1].drv] slave_driver - drive_write_resp task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_sequencer.sv(15) @ 77500: uvm_test_top.env.s_agt[0].sqr [uvm_test_top.env.s_agt[0].sqr] slave_sequencer :: main_phase Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(35) @ 77500: uvm_test_top.env.s_agt[0].mon [uvm_test_top.env.s_agt[0].mon] main
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(238) @ 77500: uvm_test_top.env.s_agt[0].mon [slave_monitor :: capture_reset] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(50) @ 77500: uvm_test_top.env.s_agt[0].mon [slave_monitor :: capture_write_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(79) @ 77500: uvm_test_top.env.s_agt[0].mon [slave_monitor :: capture_write_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(106) @ 77500: uvm_test_top.env.s_agt[0].mon [slave_monitor :: capture_write_response] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(130) @ 77500: uvm_test_top.env.s_agt[0].mon [slave_monitor :: capture_read_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(159) @ 77500: uvm_test_top.env.s_agt[0].mon [slave_monitor :: capture_read_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(55) @ 77500: uvm_test_top.env.s_agt[0].drv [uvm_test_top.env.s_agt[0].drv] main
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(72) @ 77500: uvm_test_top.env.s_agt[0].drv [uvm_test_top.env.s_agt[0].drv] slave_driver - get packet task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(74) @ 77500: uvm_test_top.env.s_agt[0].drv [slave_driver] get packet task waiting for getting pkt from sequencer
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(97) @ 77500: uvm_test_top.env.s_agt[0].drv [uvm_test_top.env.s_agt[0].drv] slave_driver - drive_write_add task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(125) @ 77500: uvm_test_top.env.s_agt[0].drv [uvm_test_top.env.s_agt[0].drv] slave_driver - drive_write_data task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(110) @ 77500: uvm_test_top.env.s_agt[0].drv [uvm_test_top.env.s_agt[0].drv] slave_driver - drive_read_add task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_driver.sv(144) @ 77500: uvm_test_top.env.s_agt[0].drv [uvm_test_top.env.s_agt[0].drv] slave_driver - drive_write_resp task triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(34) @ 77500: uvm_test_top.env.m_agt[0].mon [uvm_test_top.env.m_agt[0].mon] Starting Independent AXI Monitor
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(108) @ 77500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(124) @ 77500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(40) @ 77500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 1. main_phase entered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(43) @ 77500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 2. Reset is 1. Waiting for clock edge...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/chk_cdma.sv(54) @ 77500: uvm_test_top.env.chk [CHK] get_master_packets
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(32) @ 77500: uvm_test_top.env.m_agt[0].sqr@@master_seq [uvm_test_top.env.m_agt[0].sqr.master_seq] inside base_master_sequence body
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(340) @ 77500: uvm_test_top.env.m_agt[0].sqr@@master_seq [SIMPLE_MODE_DMA_INT_SEQ] Starting of DMAIntErr Seq
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 77500: reporter [ADAPTER] reg2bus IN  addr=0x4 data=0x0 kind=UVM_READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(29) @ 77500: reporter [adapter_read] reg2bus READ addr=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 77500: reporter [ADAPTER] reg2bus OUT awaddr=0xxxxxxxxxxxxxxxxx araddr=0x4 wdata=0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(32) @ 77500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [uvm_test_top.env.m_agt[0].sqr.interrupt_seq] inside base_master_sequence body
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(99) @ 77500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] cdma_introut: 0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_sequence.sv(11) @ 77500: uvm_test_top.env.s_agt[0].sqr@@slave_seq [slave_sequence :: body task] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_sequence.sv(13) @ 77500: uvm_test_top.env.s_agt[0].sqr@@slave_seq [slave_sequence :: body task] Waiting_for_resp_pkt
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 77500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 77500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(115) @ 77500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(129) @ 77500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_read_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(117) @ 147500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] captured read addr pkt put to read_addr
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(108) @ 147500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(125) @ 147500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- address handshake complete
+# KERNEL: AT 156ns: m_clk is 0, interface aclk is 0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(136) @ 212500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Sending pkt to read_data
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(124) @ 212500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(140) @ 212500: uvm_test_top.env.m_agt[0].drv [driver_pkt_last] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @2474                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'h4                               
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h1000a                           
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    77500                             
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 212500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @2513             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1000a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 212500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 212500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1000a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 212500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(153) @ 212500: uvm_test_top.env.m_agt[0].mon [master_monitor_rd_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @2513             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1000a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 212500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 212500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1000a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 212500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(344) @ 212500: uvm_test_top.env.m_agt[0].sqr@@master_seq [SIMPLE_MODE_DMA_INT_SEQ] Idle = 1 - wait cleared
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(345) @ 212500: uvm_test_top.env.m_agt[0].sqr@@master_seq [SIMPLE_MODE_DMA_INT_SEQ] Configuring CDMACR in Simple Mode
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 212500: reporter [ADAPTER] reg2bus IN  addr=0x0 data=0x15000 kind=UVM_WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(23) @ 212500: reporter [adapter_write] reg2bus WRITE addr=0x0 data=0x15000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 212500: reporter [ADAPTER] reg2bus OUT awaddr=0x0 araddr=0xxxxxxxxxxxxxxxxx wdata=0x15000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 217500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 217500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(70) @ 217500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(84) @ 217500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(98) @ 217500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(100) @ 217500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- waiting for BVALID
+# KERNEL: AT 157ns: m_clk is 1, interface aclk is 1
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(80) @ 337500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(94) @ 337500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- data handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(109) @ 342500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- transaction complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(110) @ 342500: uvm_test_top.env.m_agt[0].drv [driver_pkt_from_write_resp] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @2540                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'h0                               
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h15000                           
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    217500                            
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 342500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 342500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2570             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h0               
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h15000           
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 342500: reporter [adapter_write] bus2reg WRITE addr=0x0 data=0x15000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 342500: reporter [ADAPTER] bus2reg IN WRITE addr=0x0 data=0x15000 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 342500: reporter [ADAPTER] bus2reg OUT addr=0x0 data=0x15000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(101) @ 342500: uvm_test_top.env.m_agt[0].mon [master_monitor_wr_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2570             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h0               
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h15000           
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 342500: reporter [adapter_write] bus2reg WRITE addr=0x0 data=0x15000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 342500: reporter [ADAPTER] bus2reg IN WRITE addr=0x0 data=0x15000 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 342500: reporter [ADAPTER] bus2reg OUT addr=0x0 data=0x15000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 342500: reporter [ADAPTER] reg2bus IN  addr=0x0 data=0x0 kind=UVM_READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(29) @ 342500: reporter [adapter_read] reg2bus READ addr=0x0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 342500: reporter [ADAPTER] reg2bus OUT awaddr=0xxxxxxxxxxxxxxxxx araddr=0x0 wdata=0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 347500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 347500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(115) @ 347500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(129) @ 347500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_read_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(117) @ 362500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] captured read addr pkt put to read_addr
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(108) @ 362500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(125) @ 362500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(136) @ 427500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Sending pkt to read_data
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(124) @ 427500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(140) @ 427500: uvm_test_top.env.m_agt[0].drv [driver_pkt_last] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @2594                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'h0                               
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h15002                           
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    347500                            
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 427500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @2623             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h0               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h15002           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 427500: reporter [adapter_read] bus2reg READ addr=0x0 data=0x15002
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 427500: reporter [ADAPTER] bus2reg IN READ addr=0x0 data=0x15002 kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 427500: reporter [ADAPTER] bus2reg OUT addr=0x0 data=0x15002
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(153) @ 427500: uvm_test_top.env.m_agt[0].mon [master_monitor_rd_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @2623             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h0               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h15002           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 427500: reporter [adapter_read] bus2reg READ addr=0x0 data=0x15002
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 427500: reporter [ADAPTER] bus2reg IN READ addr=0x0 data=0x15002 kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 427500: reporter [ADAPTER] bus2reg OUT addr=0x0 data=0x15002
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(349) @ 427500: uvm_test_top.env.m_agt[0].sqr@@master_seq [SIMPLE_MODE_DMA_INT_SEQ] Configuring Registers SA, DA, BTT
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 427500: reporter [ADAPTER] reg2bus IN  addr=0x18 data=0x1f0 kind=UVM_WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(23) @ 427500: reporter [adapter_write] reg2bus WRITE addr=0x18 data=0x1f0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 427500: reporter [ADAPTER] reg2bus OUT awaddr=0x18 araddr=0xxxxxxxxxxxxxxxxx wdata=0x1f0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 432500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 432500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(70) @ 432500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(84) @ 432500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(98) @ 432500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(100) @ 432500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- waiting for BVALID
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(80) @ 552500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(94) @ 552500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- data handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(109) @ 557500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- transaction complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(110) @ 557500: uvm_test_top.env.m_agt[0].drv [driver_pkt_from_write_resp] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @2647                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'h18                              
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h1f0                             
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    432500                            
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 557500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x18
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 557500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2677             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h18              
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1f0             
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 557500: reporter [adapter_write] bus2reg WRITE addr=0x18 data=0x1f0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 557500: reporter [ADAPTER] bus2reg IN WRITE addr=0x18 data=0x1f0 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 557500: reporter [ADAPTER] bus2reg OUT addr=0x18 data=0x1f0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(101) @ 557500: uvm_test_top.env.m_agt[0].mon [master_monitor_wr_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2677             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h18              
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1f0             
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 557500: reporter [adapter_write] bus2reg WRITE addr=0x18 data=0x1f0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 557500: reporter [ADAPTER] bus2reg IN WRITE addr=0x18 data=0x1f0 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 557500: reporter [ADAPTER] bus2reg OUT addr=0x18 data=0x1f0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 557500: reporter [ADAPTER] reg2bus IN  addr=0x20 data=0xc8a65000 kind=UVM_WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(23) @ 557500: reporter [adapter_write] reg2bus WRITE addr=0x20 data=0xc8a65000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 557500: reporter [ADAPTER] reg2bus OUT awaddr=0x20 araddr=0xxxxxxxxxxxxxxxxx wdata=0xc8a65000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(48) @ 557500: uvm_test_top.env.sbd [SBD_CFG] Captured SA_ADDR: 'h1f0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 562500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 562500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(70) @ 562500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(84) @ 562500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(98) @ 562500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(100) @ 562500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- waiting for BVALID
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(80) @ 682500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(94) @ 682500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- data handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(109) @ 687500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- transaction complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(110) @ 687500: uvm_test_top.env.m_agt[0].drv [driver_pkt_from_write_resp] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @2701                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'h20                              
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hc8a65000                        
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    562500                            
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 687500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x20
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 687500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2733             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h20              
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'hc8a65000        
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 687500: reporter [adapter_write] bus2reg WRITE addr=0x20 data=0xc8a65000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 687500: reporter [ADAPTER] bus2reg IN WRITE addr=0x20 data=0xc8a65000 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 687500: reporter [ADAPTER] bus2reg OUT addr=0x20 data=0xc8a65000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(101) @ 687500: uvm_test_top.env.m_agt[0].mon [master_monitor_wr_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2733             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h20              
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'hc8a65000        
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 687500: reporter [adapter_write] bus2reg WRITE addr=0x20 data=0xc8a65000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 687500: reporter [ADAPTER] bus2reg IN WRITE addr=0x20 data=0xc8a65000 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 687500: reporter [ADAPTER] bus2reg OUT addr=0x20 data=0xc8a65000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 687500: reporter [ADAPTER] reg2bus IN  addr=0x28 data=0x0 kind=UVM_WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(23) @ 687500: reporter [adapter_write] reg2bus WRITE addr=0x28 data=0x0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 687500: reporter [ADAPTER] reg2bus OUT awaddr=0x28 araddr=0xxxxxxxxxxxxxxxxx wdata=0x0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(52) @ 687500: uvm_test_top.env.sbd [SBD_CFG] Captured DA_ADDR: 'hc8a65000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 692500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 692500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(70) @ 692500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(84) @ 692500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(98) @ 692500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(100) @ 692500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- waiting for BVALID
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(80) @ 812500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(94) @ 812500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- data handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(109) @ 817500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- transaction complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(110) @ 817500: uvm_test_top.env.m_agt[0].drv [driver_pkt_from_write_resp] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @2757                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'h28                              
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h0                               
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    692500                            
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 817500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x28
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 817500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2789             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h28              
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h0               
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 817500: reporter [adapter_write] bus2reg WRITE addr=0x28 data=0x0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 817500: reporter [ADAPTER] bus2reg IN WRITE addr=0x28 data=0x0 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 817500: reporter [ADAPTER] bus2reg OUT addr=0x28 data=0x0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(101) @ 817500: uvm_test_top.env.m_agt[0].mon [master_monitor_wr_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2789             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h28              
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h0               
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 817500: reporter [adapter_write] bus2reg WRITE addr=0x28 data=0x0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 817500: reporter [ADAPTER] bus2reg IN WRITE addr=0x28 data=0x0 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 817500: reporter [ADAPTER] bus2reg OUT addr=0x28 data=0x0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(354) @ 817500: uvm_test_top.env.m_agt[0].sqr@@master_seq [SIMPLE_MODE_DMA_INT_SEQ] Configured Registers: 
+# KERNEL: SA: 496 
+# KERNEL: DA: 3366342656 
+# KERNEL: BTT: 0 
+# KERNEL: Transfer started!
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(356) @ 817500: uvm_test_top.env.m_agt[0].sqr@@master_seq [SIMPLE_MODE_DMA_INT_SEQ] cdma_introut: 0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/chk_cdma.sv(67) @ 817500: uvm_test_top.env.chk [CHK_PRE] cr_t configured: 15002
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/chk_cdma.sv(68) @ 817500: uvm_test_top.env.chk [CHK_PRE] sr_t configured: 1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/chk_cdma.sv(69) @ 817500: uvm_test_top.env.chk [CHK_PRE] sa_loc configured: 1f0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/chk_cdma.sv(70) @ 817500: uvm_test_top.env.chk [CHK_PRE] da_loc configured: c8a65000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/chk_cdma.sv(71) @ 817500: uvm_test_top.env.chk [CHK_PRE] btt_b configured decimal: 0. Transfer Active!
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(57) @ 817500: uvm_test_top.env.sbd [SBD_CFG] Captured BTT_LEN: 0 bytes. Transfer started!
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/chk_cdma.sv(89) @ 817500: uvm_test_top.env.chk [CHK] get_slave_packet
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(115) @ 817500: uvm_test_top.env.sbd [SBD_COMPARE] Initiating comparison for 0 bytes...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(135) @ 817500: uvm_test_top.env.sbd [SBD_PASS] Transfer Successful! 0/0 bytes matched.
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 822500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(101) @ 857500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] cdma_introut: 1
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 857500: reporter [ADAPTER] reg2bus IN  addr=0x4 data=0x0 kind=UVM_READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(29) @ 857500: reporter [adapter_read] reg2bus READ addr=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 857500: reporter [ADAPTER] reg2bus OUT awaddr=0xxxxxxxxxxxxxxxxx araddr=0x4 wdata=0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(358) @ 857500: uvm_test_top.env.m_agt[0].sqr@@master_seq [SIMPLE_MODE_DMA_INT_SEQ] cdma_introut: 1
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 857500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(115) @ 857500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(129) @ 857500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_read_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(117) @ 872500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] captured read addr pkt put to read_addr
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(108) @ 872500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(125) @ 872500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(136) @ 937500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Sending pkt to read_data
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(124) @ 937500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(140) @ 937500: uvm_test_top.env.m_agt[0].drv [driver_pkt_last] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @2839                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'h4                               
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h1501a                           
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    857500                            
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 937500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @2868             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1501a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 937500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1501a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 937500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1501a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 937500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1501a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(153) @ 937500: uvm_test_top.env.m_agt[0].mon [master_monitor_rd_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @2868             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1501a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 937500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1501a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 937500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1501a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 937500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1501a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(106) @ 937500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] Idle = 1 - wait cleared. Transfer completed!
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(113) @ 937500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] Err_Irq asserted
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(114) @ 937500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] Doing W1C to de-assert Err_Irq
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 937500: reporter [ADAPTER] reg2bus IN  addr=0x4 data=0x0 kind=UVM_READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(29) @ 937500: reporter [adapter_read] reg2bus READ addr=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 937500: reporter [ADAPTER] reg2bus OUT awaddr=0xxxxxxxxxxxxxxxxx araddr=0x4 wdata=0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 942500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 942500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(115) @ 942500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(129) @ 942500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_read_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(117) @ 957500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] captured read addr pkt put to read_addr
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(108) @ 957500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(125) @ 957500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(136) @ 1022500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Sending pkt to read_data
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(124) @ 1022500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(140) @ 1022500: uvm_test_top.env.m_agt[0].drv [driver_pkt_last] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @2896                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'h4                               
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h1501a                           
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    942500                            
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 1022500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @2925             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1501a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 1022500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1501a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 1022500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1501a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1022500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1501a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(153) @ 1022500: uvm_test_top.env.m_agt[0].mon [master_monitor_rd_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @2925             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1501a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 1022500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1501a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 1022500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1501a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1022500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1501a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(363) @ 1022500: uvm_test_top.env.m_agt[0].sqr@@master_seq [SIMPLE_MODE_DMA_INT_SEQ] Idle = 1 - wait cleared. Transfer completed!
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(371) @ 1022500: uvm_test_top.env.m_agt[0].sqr@@master_seq [SIMPLE_MODE_DMA_INT_SEQ] DMAIntErr asserted
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 1022500: reporter [ADAPTER] reg2bus IN  addr=0x4 data=0x4000 kind=UVM_WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(23) @ 1022500: reporter [adapter_write] reg2bus WRITE addr=0x4 data=0x4000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 1022500: reporter [ADAPTER] reg2bus OUT awaddr=0x4 araddr=0xxxxxxxxxxxxxxxxx wdata=0x4000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 1027500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 1027500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(70) @ 1027500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(84) @ 1027500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(98) @ 1027500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(100) @ 1027500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- waiting for BVALID
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(80) @ 1147500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(94) @ 1147500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- data handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(109) @ 1152500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- transaction complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(110) @ 1152500: uvm_test_top.env.m_agt[0].drv [driver_pkt_from_write_resp] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @2951                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'h4                               
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h4000                            
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    1027500                           
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 1152500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 1152500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2983             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h4               
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h4000            
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 1152500: reporter [adapter_write] bus2reg WRITE addr=0x4 data=0x4000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 1152500: reporter [ADAPTER] bus2reg IN WRITE addr=0x4 data=0x4000 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1152500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x4000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(101) @ 1152500: uvm_test_top.env.m_agt[0].mon [master_monitor_wr_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @2983             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h4               
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h4000            
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 1152500: reporter [adapter_write] bus2reg WRITE addr=0x4 data=0x4000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 1152500: reporter [ADAPTER] bus2reg IN WRITE addr=0x4 data=0x4000 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1152500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x4000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(128) @ 1152500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] DMAIntErr asserted
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 1152500: reporter [ADAPTER] reg2bus IN  addr=0x0 data=0x4 kind=UVM_WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(23) @ 1152500: reporter [adapter_write] reg2bus WRITE addr=0x0 data=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 1152500: reporter [ADAPTER] reg2bus OUT awaddr=0x0 araddr=0xxxxxxxxxxxxxxxxx wdata=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 1157500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 1157500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(70) @ 1157500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(84) @ 1157500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(98) @ 1157500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(100) @ 1157500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- waiting for BVALID
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(80) @ 1277500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(94) @ 1277500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- data handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(109) @ 1282500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- transaction complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(110) @ 1282500: uvm_test_top.env.m_agt[0].drv [driver_pkt_from_write_resp] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @3009                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'h0                               
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h4                               
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    1157500                           
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 1282500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 1282500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @3039             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h0               
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h4               
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 1282500: reporter [adapter_write] bus2reg WRITE addr=0x0 data=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 1282500: reporter [ADAPTER] bus2reg IN WRITE addr=0x0 data=0x4 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1282500: reporter [ADAPTER] bus2reg OUT addr=0x0 data=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(101) @ 1282500: uvm_test_top.env.m_agt[0].mon [master_monitor_wr_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @3039             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h0               
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h4               
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 1282500: reporter [adapter_write] bus2reg WRITE addr=0x0 data=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 1282500: reporter [ADAPTER] bus2reg IN WRITE addr=0x0 data=0x4 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1282500: reporter [ADAPTER] bus2reg OUT addr=0x0 data=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(130) @ 1282500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] Reset asserted
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(139) @ 1282500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] IOC_Irq asserted!
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(140) @ 1282500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] Clearing IOC_Irq by doing W1C
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 1282500: reporter [ADAPTER] reg2bus IN  addr=0x4 data=0x1000 kind=UVM_WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(23) @ 1282500: reporter [adapter_write] reg2bus WRITE addr=0x4 data=0x1000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 1282500: reporter [ADAPTER] reg2bus OUT awaddr=0x4 araddr=0xxxxxxxxxxxxxxxxx wdata=0x1000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 1287500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 1287500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(70) @ 1287500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(84) @ 1287500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(98) @ 1287500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(100) @ 1287500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- waiting for BVALID
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(80) @ 1407500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(94) @ 1407500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_data -- data handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(109) @ 1412500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_write_resp -- transaction complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(110) @ 1412500: uvm_test_top.env.m_agt[0].drv [driver_pkt_from_write_resp] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @3069                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'h4                               
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h1000                            
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    1287500                           
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 1412500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 1412500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @3099             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h4               
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1000            
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 1412500: reporter [adapter_write] bus2reg WRITE addr=0x4 data=0x1000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 1412500: reporter [ADAPTER] bus2reg IN WRITE addr=0x4 data=0x1000 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1412500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(101) @ 1412500: uvm_test_top.env.m_agt[0].mon [master_monitor_wr_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: w_merge      master_seq_item    -     @3099             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'h4               
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1000            
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       0     -                 
+# KERNEL:   rresp      array(response_t)  0     -                 
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(52) @ 1412500: reporter [adapter_write] bus2reg WRITE addr=0x4 data=0x1000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(53) @ 1412500: reporter [ADAPTER] bus2reg IN WRITE addr=0x4 data=0x1000 kind=WRITE
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1412500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1000
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 1412500: reporter [ADAPTER] reg2bus IN  addr=0x4 data=0x0 kind=UVM_READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(29) @ 1412500: reporter [adapter_read] reg2bus READ addr=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 1412500: reporter [ADAPTER] reg2bus OUT awaddr=0xxxxxxxxxxxxxxxxx araddr=0x4 wdata=0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 1417500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 1417500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(115) @ 1417500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(129) @ 1417500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_read_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(117) @ 1432500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] captured read addr pkt put to read_addr
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(108) @ 1432500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(125) @ 1432500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(136) @ 1497500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Sending pkt to read_data
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(124) @ 1497500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(140) @ 1497500: uvm_test_top.env.m_agt[0].drv [driver_pkt_last] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @3123                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'h4                               
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h1000a                           
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    1417500                           
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 1497500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @3152             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1000a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 1497500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 1497500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1000a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1497500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(153) @ 1497500: uvm_test_top.env.m_agt[0].mon [master_monitor_rd_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @3152             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1000a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 1497500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 1497500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1000a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1497500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(148) @ 1497500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] IOC_Irq Cleared!
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(151) @ 1497500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] Reading Status Registers after clearning
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(12) @ 1497500: reporter [ADAPTER] reg2bus IN  addr=0x4 data=0x0 kind=UVM_READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(29) @ 1497500: reporter [adapter_read] reg2bus READ addr=0x4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(31) @ 1497500: reporter [ADAPTER] reg2bus OUT awaddr=0xxxxxxxxxxxxxxxxx araddr=0x4 wdata=0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(47) @ 1502500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 3. Clock ticked! Asking sequencer for item...
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(50) @ 1502500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] 4. Got packet! Operation: READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(115) @ 1502500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(129) @ 1502500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] AXI-Lite drive_read_data -- task triggered
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(117) @ 1517500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] captured read addr pkt put to read_addr
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(108) @ 1517500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_address] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(125) @ 1517500: uvm_test_top.env.m_agt[0].drv [uvm_test_top.env.m_agt[0].drv] MI_drive_read_add -- address handshake complete
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(136) @ 1582500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Sending pkt to read_data
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(124) @ 1582500: uvm_test_top.env.m_agt[0].mon [master_monitor :: capture_read_data] Triggred
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_driver_1.sv(140) @ 1582500: uvm_test_top.env.m_agt[0].drv [driver_pkt_last] ------------------------------------------------------------------------------------------
+# KERNEL: Name                           Type               Size  Value                             
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: bus_item                       master_seq_item    -     @3178                             
+# KERNEL:   sa_addr                      integral           64    'h0                               
+# KERNEL:   da_addr                      integral           64    'h0                               
+# KERNEL:   btt_bytes                    integral           27    'h0                               
+# KERNEL:   awaddr                       integral           64    'hxxxxxxxxxxxxxxxx                
+# KERNEL:   awvalid                      integral           1     'hX                               
+# KERNEL:   awready                      integral           1     'hX                               
+# KERNEL:   wdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# KERNEL:   wvalid                       integral           1     'hX                               
+# KERNEL:   wready                       integral           1     'hX                               
+# KERNEL:   bid                          integral           7     'hXx                              
+# KERNEL:   bresp                        response_t         32    OKAY                              
+# KERNEL:   bvalid                       integral           1     'hX                               
+# KERNEL:   bready                       integral           1     'hX                               
+# KERNEL:   araddr                       integral           64    'h4                               
+# KERNEL:   arvalid                      integral           1     'hX                               
+# KERNEL:   arready                      integral           1     'hX                               
+# KERNEL:   rdata                        da(integral)       1     -                                 
+# KERNEL:     [0]                        integral           128   'h1000a                           
+# KERNEL:   rresp                        array(response_t)  1     -                                 
+# KERNEL:     [0]                        response_t         32    OKAY                              
+# KERNEL:   rvalid                       integral           1     'hX                               
+# KERNEL:   rready                       integral           1     'hX                               
+# KERNEL:   begin_time                   time               64    1502500                           
+# KERNEL:   depth                        int                32    'd2                               
+# KERNEL:   parent sequence (name)       string             18    default_parent_seq                
+# KERNEL:   parent sequence (full name)  string             18    default_parent_seq                
+# KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
+# KERNEL: ------------------------------------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(141) @ 1582500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @3207             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1000a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 1582500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 1582500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1000a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1582500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(153) @ 1582500: uvm_test_top.env.m_agt[0].mon [master_monitor_rd_data_pkt] --------------------------------------------------------
+# KERNEL: Name         Type               Size  Value             
+# KERNEL: --------------------------------------------------------
+# KERNEL: r_merge      master_seq_item    -     @3207             
+# KERNEL:   sa_addr    integral           64    'h0               
+# KERNEL:   da_addr    integral           64    'h0               
+# KERNEL:   btt_bytes  integral           27    'h0               
+# KERNEL:   awaddr     integral           64    'hxxxxxxxxxxxxxxxx
+# KERNEL:   awvalid    integral           1     'hX               
+# KERNEL:   awready    integral           1     'hX               
+# KERNEL:   wdata      da(integral)       0     -                 
+# KERNEL:   wvalid     integral           1     'hX               
+# KERNEL:   wready     integral           1     'hX               
+# KERNEL:   bid        integral           7     'hXx              
+# KERNEL:   bresp      response_t         32    OKAY              
+# KERNEL:   bvalid     integral           1     'hX               
+# KERNEL:   bready     integral           1     'hX               
+# KERNEL:   araddr     integral           64    'h4               
+# KERNEL:   arvalid    integral           1     'hX               
+# KERNEL:   arready    integral           1     'hX               
+# KERNEL:   rdata      da(integral)       1     -                 
+# KERNEL:     [0]      integral           128   'h1000a           
+# KERNEL:   rresp      array(response_t)  1     -                 
+# KERNEL:     [0]      response_t         32    OKAY              
+# KERNEL:   rvalid     integral           1     'hX               
+# KERNEL:   rready     integral           1     'hX               
+# KERNEL: --------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(45) @ 1582500: reporter [adapter_read] bus2reg READ addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(46) @ 1582500: reporter [ADAPTER] bus2reg IN READ addr=0x4 data=0x1000a kind=READ
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/cdma_reg_ral/cdma_reg_adapter.sv(56) @ 1582500: reporter [ADAPTER] bus2reg OUT addr=0x4 data=0x1000a
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(169) @ 1582500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] Read Status Register Errs as 0. Clear is Success!
+# KERNEL: UVM_INFO @ 1582500: main_objection [OBJTN_TRC] Object uvm_test_top dropped 1 objection(s): count=0  total=0
+# KERNEL: UVM_INFO @ 1582500: main_objection [OBJTN_TRC] Object uvm_test_top all_dropped 1 objection(s): count=0  total=0
+# KERNEL: UVM_INFO @ 1582500: main_objection [OBJTN_TRC] Object uvm_top subtracted 1 objection(s) from its total (dropped from source object uvm_test_top): count=0  total=0
+# KERNEL: UVM_INFO @ 1582500: main_objection [OBJTN_TRC] Object uvm_top subtracted 1 objection(s) from its total (all_dropped from source object uvm_test_top): count=0  total=0
+# KERNEL: UVM_INFO ./uvm-1.2/src/base/uvm_report_server.svh(869) @ 1582500: reporter [UVM/REPORT/SERVER] 
+# KERNEL: --- UVM Report Summary ---
+# KERNEL: 
+# KERNEL: ** Report counts by severity
+# KERNEL: UVM_INFO :  399
+# KERNEL: UVM_WARNING :    0
+# KERNEL: UVM_ERROR :    0
+# KERNEL: UVM_FATAL :    0
+# KERNEL: ** Report counts by id
+# KERNEL: [ADAPTER]    78
+# KERNEL: [CHK]     2
+# KERNEL: [CHK_PRE]     5
+# KERNEL: [CONNECT]     4
+# KERNEL: [COV]    13
+# KERNEL: [OBJTN_TRC]    12
+# KERNEL: [PREDICTOR_DEBUG]     7
+# KERNEL: [RNTST]     1
+# KERNEL: [RUNTIME_CHECK]     1
+# KERNEL: [SBD_CFG]     3
+# KERNEL: [SBD_COMPARE]     1
+# KERNEL: [SBD_PASS]     1
+# KERNEL: [SIMPLE_MODE_DMA_INT_SEQ]    21
+# KERNEL: [UVM/CONFIGDB/SPELLCHK]     1
+# KERNEL: [UVM/RELNOTES]     1
+# KERNEL: [UVMTOP]     1
+# KERNEL: [adapter_read]    18
+# KERNEL: [adapter_write]    21
+# KERNEL: [cdma_env::build]     1
+# KERNEL: [cdma_env::connect]     1
+# KERNEL: [cdma_env::main]     1
+# KERNEL: [cdma_env::sim]     1
+# KERNEL: [driver_pkt_from_write_resp]     7
+# KERNEL: [driver_pkt_last]     6
+# KERNEL: [master_agent]     1
+# KERNEL: [master_agent::connect]     1
+# KERNEL: [master_monitor :: capture_read_address]    13
+# KERNEL: [master_monitor :: capture_read_data]    13
+# KERNEL: [master_monitor_rd_data_pkt]     6
+# KERNEL: [master_monitor_wr_data_pkt]     7
+# KERNEL: [slave_agent]     2
+# KERNEL: [slave_agent::connect]     2
+# KERNEL: [slave_driver]     2
+# KERNEL: [slave_monitor :: capture_read_address]     2
+# KERNEL: [slave_monitor :: capture_read_data]     2
+# KERNEL: [slave_monitor :: capture_reset]     2
+# KERNEL: [slave_monitor :: capture_write_address]     2
+# KERNEL: [slave_monitor :: capture_write_data]     2
+# KERNEL: [slave_monitor :: capture_write_response]     2
+# KERNEL: [slave_sequence :: body task]     2
+# KERNEL: [test::build_phase]     1
+# KERNEL: [test::end_of_elaboration]     1
+# KERNEL: [uvm_test_top]     3
+# KERNEL: [uvm_test_top.env.m_agt[0].drv]    97
+# KERNEL: [uvm_test_top.env.m_agt[0].mon]     2
+# KERNEL: [uvm_test_top.env.m_agt[0].sqr.interrupt_seq]     1
+# KERNEL: [uvm_test_top.env.m_agt[0].sqr.master_seq]     1
+# KERNEL: [uvm_test_top.env.s_agt[0].drv]     8
+# KERNEL: [uvm_test_top.env.s_agt[0].mon]     2
+# KERNEL: [uvm_test_top.env.s_agt[0].sqr]     1
+# KERNEL: [uvm_test_top.env.s_agt[1].drv]     8
+# KERNEL: [uvm_test_top.env.s_agt[1].mon]     2
+# KERNEL: [uvm_test_top.env.s_agt[1].sqr]     1
+# KERNEL: [uvm_test_top.env.v_seqr.s_sqr_h[0]]     1
+# KERNEL: [uvm_test_top.env.v_seqr.s_sqr_h[1]]     1
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 uvm_root.svh (521): $finish called.
+# KERNEL: Time: 1582500 ps,  Iteration: 98,  Instance: /top,  Process: @INITIAL#162_7@.
+# KERNEL: stopped at time: 1582500 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.

@@ -18,8 +18,8 @@
 # ELBREAD: Warning: ELBREAD_0022 The contents of module "xpm.xpm_fifo_async" instantiated in architecture "axi_datamover_v5_1_37.axi_datamover_afifo_autord(imp)" differ from the contents available during the compilation of this architecture.
 # ELBREAD: Warning: ELBREAD_0049 The "uvm_pkg" design unit does not have a time unit/precision defined but other design units do.
 # ELBREAD: Warning: ELBREAD_0049 The "std" design unit does not have a time unit/precision defined but other design units do.
-# ELBREAD: Elaboration time 1.6 [s].
-# KERNEL: seed value: 1386087732
+# ELBREAD: Elaboration time 0.8 [s].
+# KERNEL: seed value: 1640017475
 # KERNEL: Main thread initiated.
 # KERNEL: Kernel process initialization phase.
 # ELAB2: Elaboration final pass...
@@ -34,7 +34,7 @@
 # ELAB2: You do not have a license to run VHDL performance optimized simulation. Contact Aldec for ordering information - sales@aldec.com.
 # SLP: 0 primitives and 428 (13.86%) other processes in SLP
 # SLP: 927 (2.16%) signals in SLP and 1349 (3.14%) interface signals
-# ELAB2: Elaboration final pass complete - time: 4.4 [s].
+# ELAB2: Elaboration final pass complete - time: 2.0 [s].
 # KERNEL: SLP loading done - time: 0.0 [s].
 # KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
@@ -473,7 +473,7 @@
 # KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 212500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 212500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: r_merge      master_seq_item    -     @2612             
@@ -585,7 +585,7 @@
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 342500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x0
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 342500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 342500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: w_merge      master_seq_item    -     @2669             
@@ -691,7 +691,7 @@
 # KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 427500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 427500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: r_merge      master_seq_item    -     @2722             
@@ -801,7 +801,7 @@
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 557500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x18
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 557500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 557500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: w_merge      master_seq_item    -     @2776             
@@ -909,7 +909,7 @@
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 687500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x20
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 687500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 687500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: w_merge      master_seq_item    -     @2832             
@@ -988,13 +988,13 @@
 # KERNEL: Name                           Type               Size  Value                                  
 # KERNEL: -----------------------------------------------------------------------------------------------
 # KERNEL: pkt                            slave_seq_item     -     @2879                                  
-# KERNEL:   awid                         integral           7     'h3b                                   
-# KERNEL:   awaddr                       integral           64    'h855de1b52db8c126                     
-# KERNEL:   awlen                        integral           8     'h87                                   
-# KERNEL:   awsize                       integral           3     'h6                                    
-# KERNEL:   awburst                      burst_type_t       32    INCR                                   
+# KERNEL:   awid                         integral           7     'h19                                   
+# KERNEL:   awaddr                       integral           64    'hbf133b8cc2e2c71                      
+# KERNEL:   awlen                        integral           8     'h60                                   
+# KERNEL:   awsize                       integral           3     'h0                                    
+# KERNEL:   awburst                      burst_type_t       32    WRAP                                   
 # KERNEL:   awprot                       integral           3     'h2                                    
-# KERNEL:   awcache                      integral           4     'h0                                    
+# KERNEL:   awcache                      integral           4     'h4                                    
 # KERNEL:   awvalid                      integral           1     'hX                                    
 # KERNEL:   awready                      integral           1     'hX                                    
 # KERNEL:   wdata                        da(integral)       0     -                                      
@@ -1002,8 +1002,8 @@
 # KERNEL:   wlast                        integral           1     'hX                                    
 # KERNEL:   wvalid                       integral           1     'hX                                    
 # KERNEL:   wready                       integral           1     'hX                                    
-# KERNEL:   bid                          integral           7     'h17                                   
-# KERNEL:   bresp                        response_t         32    OKAY                                   
+# KERNEL:   bid                          integral           7     'h5f                                   
+# KERNEL:   bresp                        response_t         32    EXOKAY                                 
 # KERNEL:   bvalid                       integral           1     'hX                                    
 # KERNEL:   bready                       integral           1     'hX                                    
 # KERNEL:   arid                         integral           7     'h0                                    
@@ -1016,8 +1016,8 @@
 # KERNEL:   arvalid                      integral           1     'hX                                    
 # KERNEL:   arready                      integral           1     'hX                                    
 # KERNEL:   rdata                        da(integral)       2     -                                      
-# KERNEL:     [0]                        integral           128   'h5d5ac8341adb1b29d0b322f5da139814     
-# KERNEL:     [1]                        integral           128   'hfa68d24e7dfb0260fc80c3264b36363a     
+# KERNEL:     [0]                        integral           128   'hd4631dec77243360e0d8395450eb2415     
+# KERNEL:     [1]                        integral           128   'hc95d574b3e2887946e8efb127e84093e     
 # KERNEL:   rresp                        array(response_t)  2     -                                      
 # KERNEL:     [0]                        response_t         32    OKAY                                   
 # KERNEL:     [1]                        response_t         32    OKAY                                   
@@ -1076,7 +1076,7 @@
 # KERNEL: 
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_sequence.sv(15) @ 817500: uvm_test_top.env.s_agt[0].sqr@@slave_seq [slave_sequence :: body task] got_resp_pkt
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 817500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x28
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 817500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 817500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: w_merge      master_seq_item    -     @2919             
@@ -1174,8 +1174,8 @@
 # KERNEL:   arvalid  integral           1     'hX                               
 # KERNEL:   arready  integral           1     'hX                               
 # KERNEL:   rdata    da(integral)       2     -                                 
-# KERNEL:     [0]    integral           128   'h5d5ac8341adb1b29d0b322f5da139814
-# KERNEL:     [1]    integral           128   'hfa68d24e7dfb0260fc80c3264b36363a
+# KERNEL:     [0]    integral           128   'hd4631dec77243360e0d8395450eb2415
+# KERNEL:     [1]    integral           128   'hc95d574b3e2887946e8efb127e84093e
 # KERNEL:   rresp    array(response_t)  2     -                                 
 # KERNEL:     [0]    response_t         32    OKAY                              
 # KERNEL:     [1]    response_t         32    OKAY                              
@@ -1194,13 +1194,13 @@
 # KERNEL: Name                           Type               Size  Value                                  
 # KERNEL: -----------------------------------------------------------------------------------------------
 # KERNEL: pkt                            slave_seq_item     -     @2918                                  
-# KERNEL:   awid                         integral           7     'h23                                   
-# KERNEL:   awaddr                       integral           64    'h334952a4dab6dda                      
-# KERNEL:   awlen                        integral           8     'hfd                                   
-# KERNEL:   awsize                       integral           3     'h1                                    
-# KERNEL:   awburst                      burst_type_t       32    WRAP                                   
-# KERNEL:   awprot                       integral           3     'h2                                    
-# KERNEL:   awcache                      integral           4     'hd                                    
+# KERNEL:   awid                         integral           7     'h3f                                   
+# KERNEL:   awaddr                       integral           64    'hbdbd7fd83769cbaf                     
+# KERNEL:   awlen                        integral           8     'he2                                   
+# KERNEL:   awsize                       integral           3     'h4                                    
+# KERNEL:   awburst                      burst_type_t       32    FIXED                                  
+# KERNEL:   awprot                       integral           3     'h0                                    
+# KERNEL:   awcache                      integral           4     'h6                                    
 # KERNEL:   awvalid                      integral           1     'hX                                    
 # KERNEL:   awready                      integral           1     'hX                                    
 # KERNEL:   wdata                        da(integral)       0     -                                      
@@ -1208,8 +1208,8 @@
 # KERNEL:   wlast                        integral           1     'hX                                    
 # KERNEL:   wvalid                       integral           1     'hX                                    
 # KERNEL:   wready                       integral           1     'hX                                    
-# KERNEL:   bid                          integral           7     'h5                                    
-# KERNEL:   bresp                        response_t         32    OKAY                                   
+# KERNEL:   bid                          integral           7     'h11                                   
+# KERNEL:   bresp                        response_t         32    EXOKAY                                 
 # KERNEL:   bvalid                       integral           1     'hX                                    
 # KERNEL:   bready                       integral           1     'hX                                    
 # KERNEL:   arid                         integral           7     'h0                                    
@@ -1222,9 +1222,9 @@
 # KERNEL:   arvalid                      integral           1     'hX                                    
 # KERNEL:   arready                      integral           1     'hX                                    
 # KERNEL:   rdata                        da(integral)       3     -                                      
-# KERNEL:     [0]                        integral           128   'hf61b7fa5f13f7c18356ac514ec57f6f2     
-# KERNEL:     [1]                        integral           128   'hceb8fef90e6bcf543a176a79705d2650     
-# KERNEL:     [2]                        integral           128   'hefd6d118c2135eab32003a864673ef67     
+# KERNEL:     [0]                        integral           128   'hb14c6119f8590b69768d50e37c7d0d50     
+# KERNEL:     [1]                        integral           128   'hd50fbddf6484e5113f5270afa8543bbe     
+# KERNEL:     [2]                        integral           128   'h6b571b9762082a1b370218bbed046ce4     
 # KERNEL:   rresp                        array(response_t)  3     -                                      
 # KERNEL:     [0]                        response_t         32    OKAY                                   
 # KERNEL:     [1]                        response_t         32    OKAY                                   
@@ -1279,9 +1279,9 @@
 # KERNEL:   arvalid  integral           1     'hX                               
 # KERNEL:   arready  integral           1     'hX                               
 # KERNEL:   rdata    da(integral)       3     -                                 
-# KERNEL:     [0]    integral           128   'hf61b7fa5f13f7c18356ac514ec57f6f2
-# KERNEL:     [1]    integral           128   'hceb8fef90e6bcf543a176a79705d2650
-# KERNEL:     [2]    integral           128   'hefd6d118c2135eab32003a864673ef67
+# KERNEL:     [0]    integral           128   'hb14c6119f8590b69768d50e37c7d0d50
+# KERNEL:     [1]    integral           128   'hd50fbddf6484e5113f5270afa8543bbe
+# KERNEL:     [2]    integral           128   'h6b571b9762082a1b370218bbed046ce4
 # KERNEL:   rresp    array(response_t)  3     -                                 
 # KERNEL:     [0]    response_t         32    OKAY                              
 # KERNEL:     [1]    response_t         32    OKAY                              
@@ -1399,8 +1399,8 @@
 # KERNEL:   awvalid  integral           1     'hX                               
 # KERNEL:   awready  integral           1     'hX                               
 # KERNEL:   wdata    da(integral)       2     -                                 
-# KERNEL:     [0]    integral           128   'h5d5ac8341adb1b29d0b322f5da139800
-# KERNEL:     [1]    integral           128   'hfa68d24e7dfb0260fc80c3264b36363a
+# KERNEL:     [0]    integral           128   'hd4631dec77243360e0d8395450eb2400
+# KERNEL:     [1]    integral           128   'hc95d574b3e2887946e8efb127e84093e
 # KERNEL:   wstrobe  da(integral)       2     -                                 
 # KERNEL:     [0]    integral           16    'b1111111111111110                
 # KERNEL:     [1]    integral           16    'b1111111111111111                
@@ -1446,8 +1446,8 @@
 # KERNEL:   awvalid   integral           1     'hX                               
 # KERNEL:   awready   integral           1     'hX                               
 # KERNEL:   wdata     da(integral)       2     -                                 
-# KERNEL:     [0]     integral           128   'h5d5ac8341adb1b29d0b322f5da139800
-# KERNEL:     [1]     integral           128   'hfa68d24e7dfb0260fc80c3264b36363a
+# KERNEL:     [0]     integral           128   'hd4631dec77243360e0d8395450eb2400
+# KERNEL:     [1]     integral           128   'hc95d574b3e2887946e8efb127e84093e
 # KERNEL:   wstrobe   da(integral)       2     -                                 
 # KERNEL:     [0]     integral           16    'b1111111111111110                
 # KERNEL:     [1]     integral           16    'b1111111111111111                
@@ -1477,38 +1477,38 @@
 # KERNEL: 
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(54) @ 872500: uvm_test_top.env.s_agt[0].mon [slave_monitor :: capture_write_address] Triggred
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(287) @ 872500: uvm_test_top.env.chk [WSTRB_MATCH] Beat 0 | Exp: 1111111111111110, Act: 1111111111111110
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 1 | Exp: 98, Act: 98
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 2 | Exp: 13, Act: 13
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 3 | Exp: da, Act: da
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 4 | Exp: f5, Act: f5
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 5 | Exp: 22, Act: 22
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 6 | Exp: b3, Act: b3
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 7 | Exp: d0, Act: d0
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 8 | Exp: 29, Act: 29
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 9 | Exp: 1b, Act: 1b
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 10 | Exp: db, Act: db
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 11 | Exp: 1a, Act: 1a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 12 | Exp: 34, Act: 34
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 13 | Exp: c8, Act: c8
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 14 | Exp: 5a, Act: 5a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 15 | Exp: 5d, Act: 5d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 1 | Exp: 24, Act: 24
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 2 | Exp: eb, Act: eb
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 3 | Exp: 50, Act: 50
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 4 | Exp: 54, Act: 54
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 5 | Exp: 39, Act: 39
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 6 | Exp: d8, Act: d8
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 7 | Exp: e0, Act: e0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 8 | Exp: 60, Act: 60
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 9 | Exp: 33, Act: 33
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 10 | Exp: 24, Act: 24
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 11 | Exp: 77, Act: 77
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 12 | Exp: ec, Act: ec
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 13 | Exp: 1d, Act: 1d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 14 | Exp: 63, Act: 63
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 15 | Exp: d4, Act: d4
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(287) @ 872500: uvm_test_top.env.chk [WSTRB_MATCH] Beat 1 | Exp: 1111111111111111, Act: 1111111111111111
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 0 | Exp: 3a, Act: 3a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 1 | Exp: 36, Act: 36
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 2 | Exp: 36, Act: 36
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 3 | Exp: 4b, Act: 4b
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 4 | Exp: 26, Act: 26
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 5 | Exp: c3, Act: c3
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 6 | Exp: 80, Act: 80
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 7 | Exp: fc, Act: fc
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 8 | Exp: 60, Act: 60
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 9 | Exp: 02, Act: 02
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 10 | Exp: fb, Act: fb
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 11 | Exp: 7d, Act: 7d
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 12 | Exp: 4e, Act: 4e
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 13 | Exp: d2, Act: d2
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 14 | Exp: 68, Act: 68
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 15 | Exp: fa, Act: fa
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 0 | Exp: 3e, Act: 3e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 1 | Exp: 09, Act: 09
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 2 | Exp: 84, Act: 84
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 3 | Exp: 7e, Act: 7e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 4 | Exp: 12, Act: 12
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 5 | Exp: fb, Act: fb
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 6 | Exp: 8e, Act: 8e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 7 | Exp: 6e, Act: 6e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 8 | Exp: 94, Act: 94
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 9 | Exp: 87, Act: 87
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 10 | Exp: 28, Act: 28
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 11 | Exp: 3e, Act: 3e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 12 | Exp: 4b, Act: 4b
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 13 | Exp: 57, Act: 57
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 14 | Exp: 5d, Act: 5d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 872500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 15 | Exp: c9, Act: c9
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(426) @ 872500: uvm_test_top.env.chk [WR_RESP] Write Transaction OKAY (00000000)
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(89) @ 872500: uvm_test_top.env.sbd [SBD_WRITE_CHECK] write_slv_pkt: -----------------------------------------------------------------------
 # KERNEL: Name        Type               Size  Value                             
@@ -1524,8 +1524,8 @@
 # KERNEL:   awvalid   integral           1     'hX                               
 # KERNEL:   awready   integral           1     'hX                               
 # KERNEL:   wdata     da(integral)       2     -                                 
-# KERNEL:     [0]     integral           128   'h5d5ac8341adb1b29d0b322f5da139800
-# KERNEL:     [1]     integral           128   'hfa68d24e7dfb0260fc80c3264b36363a
+# KERNEL:     [0]     integral           128   'hd4631dec77243360e0d8395450eb2400
+# KERNEL:     [1]     integral           128   'hc95d574b3e2887946e8efb127e84093e
 # KERNEL:   wstrobe   da(integral)       2     -                                 
 # KERNEL:     [0]     integral           16    'b1111111111111110                
 # KERNEL:     [1]     integral           16    'b1111111111111111                
@@ -1569,9 +1569,9 @@
 # KERNEL:   awvalid  integral           1     'hX                               
 # KERNEL:   awready  integral           1     'hX                               
 # KERNEL:   wdata    da(integral)       3     -                                 
-# KERNEL:     [0]    integral           128   'hf61b7fa5f13f7c18356ac514ec57f6f2
-# KERNEL:     [1]    integral           128   'hceb8fef90e6bcf543a176a79705d2650
-# KERNEL:     [2]    integral           128   'h67                              
+# KERNEL:     [0]    integral           128   'hb14c6119f8590b69768d50e37c7d0d50
+# KERNEL:     [1]    integral           128   'hd50fbddf6484e5113f5270afa8543bbe
+# KERNEL:     [2]    integral           128   'he4                              
 # KERNEL:   wstrobe  da(integral)       3     -                                 
 # KERNEL:     [0]    integral           16    'b1111111111111111                
 # KERNEL:     [1]    integral           16    'b1111111111111111                
@@ -1617,9 +1617,9 @@
 # KERNEL:   awvalid   integral           1     'hX                               
 # KERNEL:   awready   integral           1     'hX                               
 # KERNEL:   wdata     da(integral)       3     -                                 
-# KERNEL:     [0]     integral           128   'hf61b7fa5f13f7c18356ac514ec57f6f2
-# KERNEL:     [1]     integral           128   'hceb8fef90e6bcf543a176a79705d2650
-# KERNEL:     [2]     integral           128   'h67                              
+# KERNEL:     [0]     integral           128   'hb14c6119f8590b69768d50e37c7d0d50
+# KERNEL:     [1]     integral           128   'hd50fbddf6484e5113f5270afa8543bbe
+# KERNEL:     [2]     integral           128   'he4                              
 # KERNEL:   wstrobe   da(integral)       3     -                                 
 # KERNEL:     [0]     integral           16    'b1111111111111111                
 # KERNEL:     [1]     integral           16    'b1111111111111111                
@@ -1649,41 +1649,41 @@
 # KERNEL: -----------------------------------------------------------------------
 # KERNEL: 
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(287) @ 887500: uvm_test_top.env.chk [WSTRB_MATCH] Beat 0 | Exp: 1111111111111111, Act: 1111111111111111
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 0 | Exp: f2, Act: f2
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 1 | Exp: f6, Act: f6
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 2 | Exp: 57, Act: 57
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 3 | Exp: ec, Act: ec
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 4 | Exp: 14, Act: 14
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 5 | Exp: c5, Act: c5
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 6 | Exp: 6a, Act: 6a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 7 | Exp: 35, Act: 35
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 8 | Exp: 18, Act: 18
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 9 | Exp: 7c, Act: 7c
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 10 | Exp: 3f, Act: 3f
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 11 | Exp: f1, Act: f1
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 12 | Exp: a5, Act: a5
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 13 | Exp: 7f, Act: 7f
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 14 | Exp: 1b, Act: 1b
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 15 | Exp: f6, Act: f6
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 0 | Exp: 50, Act: 50
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 1 | Exp: 0d, Act: 0d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 2 | Exp: 7d, Act: 7d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 3 | Exp: 7c, Act: 7c
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 4 | Exp: e3, Act: e3
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 5 | Exp: 50, Act: 50
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 6 | Exp: 8d, Act: 8d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 7 | Exp: 76, Act: 76
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 8 | Exp: 69, Act: 69
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 9 | Exp: 0b, Act: 0b
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 10 | Exp: 59, Act: 59
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 11 | Exp: f8, Act: f8
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 12 | Exp: 19, Act: 19
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 13 | Exp: 61, Act: 61
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 14 | Exp: 4c, Act: 4c
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 0 Byte 15 | Exp: b1, Act: b1
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(287) @ 887500: uvm_test_top.env.chk [WSTRB_MATCH] Beat 1 | Exp: 1111111111111111, Act: 1111111111111111
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 0 | Exp: 50, Act: 50
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 1 | Exp: 26, Act: 26
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 2 | Exp: 5d, Act: 5d
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 3 | Exp: 70, Act: 70
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 4 | Exp: 79, Act: 79
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 5 | Exp: 6a, Act: 6a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 6 | Exp: 17, Act: 17
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 7 | Exp: 3a, Act: 3a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 8 | Exp: 54, Act: 54
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 9 | Exp: cf, Act: cf
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 10 | Exp: 6b, Act: 6b
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 11 | Exp: 0e, Act: 0e
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 12 | Exp: f9, Act: f9
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 13 | Exp: fe, Act: fe
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 14 | Exp: b8, Act: b8
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 15 | Exp: ce, Act: ce
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 0 | Exp: be, Act: be
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 1 | Exp: 3b, Act: 3b
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 2 | Exp: 54, Act: 54
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 3 | Exp: a8, Act: a8
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 4 | Exp: af, Act: af
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 5 | Exp: 70, Act: 70
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 6 | Exp: 52, Act: 52
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 7 | Exp: 3f, Act: 3f
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 8 | Exp: 11, Act: 11
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 9 | Exp: e5, Act: e5
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 10 | Exp: 84, Act: 84
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 11 | Exp: 64, Act: 64
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 12 | Exp: df, Act: df
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 13 | Exp: bd, Act: bd
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 14 | Exp: 0f, Act: 0f
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 1 Byte 15 | Exp: d5, Act: d5
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(287) @ 887500: uvm_test_top.env.chk [WSTRB_MATCH] Beat 2 | Exp: 0000000000000001, Act: 0000000000000001
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 2 Byte 0 | Exp: 67, Act: 67
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(303) @ 887500: uvm_test_top.env.chk [WDATA_MATCH] Beat 2 Byte 0 | Exp: e4, Act: e4
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(426) @ 887500: uvm_test_top.env.chk [WR_RESP] Write Transaction OKAY (00000000)
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(342) @ 887500: uvm_test_top.env.chk [INT_PRED] Transfer complete: Calculating interrupt and status response...
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cdma_checker.sv(367) @ 887500: uvm_test_top.env.chk [INT_PRED] Status predicted: 0001100a | cdma_introut predicted: 1
@@ -1701,9 +1701,9 @@
 # KERNEL:   awvalid   integral           1     'hX                               
 # KERNEL:   awready   integral           1     'hX                               
 # KERNEL:   wdata     da(integral)       3     -                                 
-# KERNEL:     [0]     integral           128   'hf61b7fa5f13f7c18356ac514ec57f6f2
-# KERNEL:     [1]     integral           128   'hceb8fef90e6bcf543a176a79705d2650
-# KERNEL:     [2]     integral           128   'h67                              
+# KERNEL:     [0]     integral           128   'hb14c6119f8590b69768d50e37c7d0d50
+# KERNEL:     [1]     integral           128   'hd50fbddf6484e5113f5270afa8543bbe
+# KERNEL:     [2]     integral           128   'he4                              
 # KERNEL:   wstrobe   da(integral)       3     -                                 
 # KERNEL:     [0]     integral           16    'b1111111111111111                
 # KERNEL:     [1]     integral           16    'b1111111111111111                
@@ -1734,70 +1734,70 @@
 # KERNEL: 
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(106) @ 887500: uvm_test_top.env.sbd [SBD_WRITE] Extracted WRITE packet. Current actual_data_q size: 64
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(115) @ 887500: uvm_test_top.env.sbd [SBD_COMPARE] Initiating comparison for 64 bytes...
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 0 | Match: Exp: 98 | Act: 98
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 1 | Match: Exp: 13 | Act: 13
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 2 | Match: Exp: da | Act: da
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 3 | Match: Exp: f5 | Act: f5
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 4 | Match: Exp: 22 | Act: 22
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 5 | Match: Exp: b3 | Act: b3
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 6 | Match: Exp: d0 | Act: d0
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 7 | Match: Exp: 29 | Act: 29
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 8 | Match: Exp: 1b | Act: 1b
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 9 | Match: Exp: db | Act: db
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 10 | Match: Exp: 1a | Act: 1a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 11 | Match: Exp: 34 | Act: 34
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 12 | Match: Exp: c8 | Act: c8
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 13 | Match: Exp: 5a | Act: 5a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 14 | Match: Exp: 5d | Act: 5d
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 15 | Match: Exp: 3a | Act: 3a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 16 | Match: Exp: 36 | Act: 36
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 17 | Match: Exp: 36 | Act: 36
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 18 | Match: Exp: 4b | Act: 4b
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 19 | Match: Exp: 26 | Act: 26
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 20 | Match: Exp: c3 | Act: c3
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 21 | Match: Exp: 80 | Act: 80
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 22 | Match: Exp: fc | Act: fc
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 23 | Match: Exp: 60 | Act: 60
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 24 | Match: Exp: 2 | Act: 2
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 25 | Match: Exp: fb | Act: fb
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 26 | Match: Exp: 7d | Act: 7d
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 27 | Match: Exp: 4e | Act: 4e
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 28 | Match: Exp: d2 | Act: d2
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 29 | Match: Exp: 68 | Act: 68
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 30 | Match: Exp: fa | Act: fa
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 31 | Match: Exp: f2 | Act: f2
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 32 | Match: Exp: f6 | Act: f6
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 33 | Match: Exp: 57 | Act: 57
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 34 | Match: Exp: ec | Act: ec
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 35 | Match: Exp: 14 | Act: 14
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 36 | Match: Exp: c5 | Act: c5
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 37 | Match: Exp: 6a | Act: 6a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 38 | Match: Exp: 35 | Act: 35
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 39 | Match: Exp: 18 | Act: 18
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 40 | Match: Exp: 7c | Act: 7c
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 41 | Match: Exp: 3f | Act: 3f
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 42 | Match: Exp: f1 | Act: f1
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 43 | Match: Exp: a5 | Act: a5
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 44 | Match: Exp: 7f | Act: 7f
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 45 | Match: Exp: 1b | Act: 1b
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 46 | Match: Exp: f6 | Act: f6
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 47 | Match: Exp: 50 | Act: 50
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 48 | Match: Exp: 26 | Act: 26
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 49 | Match: Exp: 5d | Act: 5d
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 50 | Match: Exp: 70 | Act: 70
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 51 | Match: Exp: 79 | Act: 79
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 52 | Match: Exp: 6a | Act: 6a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 53 | Match: Exp: 17 | Act: 17
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 54 | Match: Exp: 3a | Act: 3a
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 55 | Match: Exp: 54 | Act: 54
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 56 | Match: Exp: cf | Act: cf
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 57 | Match: Exp: 6b | Act: 6b
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 58 | Match: Exp: e | Act: e
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 59 | Match: Exp: f9 | Act: f9
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 60 | Match: Exp: fe | Act: fe
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 61 | Match: Exp: b8 | Act: b8
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 62 | Match: Exp: ce | Act: ce
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 63 | Match: Exp: 67 | Act: 67
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 0 | Match: Exp: 24 | Act: 24
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 1 | Match: Exp: eb | Act: eb
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 2 | Match: Exp: 50 | Act: 50
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 3 | Match: Exp: 54 | Act: 54
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 4 | Match: Exp: 39 | Act: 39
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 5 | Match: Exp: d8 | Act: d8
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 6 | Match: Exp: e0 | Act: e0
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 7 | Match: Exp: 60 | Act: 60
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 8 | Match: Exp: 33 | Act: 33
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 9 | Match: Exp: 24 | Act: 24
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 10 | Match: Exp: 77 | Act: 77
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 11 | Match: Exp: ec | Act: ec
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 12 | Match: Exp: 1d | Act: 1d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 13 | Match: Exp: 63 | Act: 63
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 14 | Match: Exp: d4 | Act: d4
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 15 | Match: Exp: 3e | Act: 3e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 16 | Match: Exp: 9 | Act: 9
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 17 | Match: Exp: 84 | Act: 84
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 18 | Match: Exp: 7e | Act: 7e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 19 | Match: Exp: 12 | Act: 12
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 20 | Match: Exp: fb | Act: fb
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 21 | Match: Exp: 8e | Act: 8e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 22 | Match: Exp: 6e | Act: 6e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 23 | Match: Exp: 94 | Act: 94
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 24 | Match: Exp: 87 | Act: 87
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 25 | Match: Exp: 28 | Act: 28
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 26 | Match: Exp: 3e | Act: 3e
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 27 | Match: Exp: 4b | Act: 4b
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 28 | Match: Exp: 57 | Act: 57
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 29 | Match: Exp: 5d | Act: 5d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 30 | Match: Exp: c9 | Act: c9
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 31 | Match: Exp: 50 | Act: 50
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 32 | Match: Exp: d | Act: d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 33 | Match: Exp: 7d | Act: 7d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 34 | Match: Exp: 7c | Act: 7c
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 35 | Match: Exp: e3 | Act: e3
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 36 | Match: Exp: 50 | Act: 50
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 37 | Match: Exp: 8d | Act: 8d
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 38 | Match: Exp: 76 | Act: 76
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 39 | Match: Exp: 69 | Act: 69
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 40 | Match: Exp: b | Act: b
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 41 | Match: Exp: 59 | Act: 59
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 42 | Match: Exp: f8 | Act: f8
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 43 | Match: Exp: 19 | Act: 19
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 44 | Match: Exp: 61 | Act: 61
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 45 | Match: Exp: 4c | Act: 4c
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 46 | Match: Exp: b1 | Act: b1
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 47 | Match: Exp: be | Act: be
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 48 | Match: Exp: 3b | Act: 3b
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 49 | Match: Exp: 54 | Act: 54
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 50 | Match: Exp: a8 | Act: a8
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 51 | Match: Exp: af | Act: af
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 52 | Match: Exp: 70 | Act: 70
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 53 | Match: Exp: 52 | Act: 52
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 54 | Match: Exp: 3f | Act: 3f
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 55 | Match: Exp: 11 | Act: 11
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 56 | Match: Exp: e5 | Act: e5
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 57 | Match: Exp: 84 | Act: 84
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 58 | Match: Exp: 64 | Act: 64
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 59 | Match: Exp: df | Act: df
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 60 | Match: Exp: bd | Act: bd
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 61 | Match: Exp: f | Act: f
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 62 | Match: Exp: d5 | Act: d5
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(126) @ 887500: uvm_test_top.env.sbd [SBD_MATCHINGS] Byte: 63 | Match: Exp: e4 | Act: e4
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/sbd_cdma.sv(135) @ 887500: uvm_test_top.env.sbd [SBD_PASS] Transfer Successful! 64/64 bytes matched.
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_slave/slave_monitor_2.sv(110) @ 892500: uvm_test_top.env.s_agt[0].mon [slave_monitor :: capture_write_response] Triggred
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_sequence1.sv(103) @ 942500: uvm_test_top.env.m_agt[0].sqr@@interrupt_seq [SIMPLE_MODE_DMA_INT_SEQ] cdma_introut: 1
@@ -1847,7 +1847,7 @@
 # KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 1022500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 1022500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: r_merge      master_seq_item    -     @3382             
@@ -1959,7 +1959,7 @@
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 1152500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x4
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 1152500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 1152500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: w_merge      master_seq_item    -     @3440             
@@ -2065,7 +2065,7 @@
 # KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 1237500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 1237500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: r_merge      master_seq_item    -     @3493             
@@ -2175,7 +2175,7 @@
 # KERNEL:   sequencer                    string             29    uvm_test_top.env.m_agt[0].sqr     
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 1322500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 1322500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: r_merge      master_seq_item    -     @3548             
@@ -2285,7 +2285,7 @@
 # KERNEL: ------------------------------------------------------------------------------------------
 # KERNEL: 
 # KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/axi_lite/master_monitor_1.sv(99) @ 1452500: uvm_test_top.env.m_agt[0].mon [PREDICTOR_DEBUG] Broadcasting WRITE to Addr: 0x0
-# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(143) @ 1452500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
+# KERNEL: UVM_INFO /home/harish/AXI_CDMA/CDMA_TB/common/cov_cdma.sv(144) @ 1452500: uvm_test_top.env.cov [COV] data pkt in COV: --------------------------------------------------------
 # KERNEL: Name         Type               Size  Value             
 # KERNEL: --------------------------------------------------------
 # KERNEL: w_merge      master_seq_item    -     @3602             

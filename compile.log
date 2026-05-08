@@ -7,10 +7,11 @@ WARNING VCP2947 "Default parameter values used for class uvm_sequence specializa
 WARNING VCP2947 "Default parameter values used for class uvm_sequence specialization." "../CDMA_TB/top/ral_seq.sv" 29  45
 WARNING VCP2900 "Conditional expression 128>64 at 'if' statement is constant." "../CDMA_TB/axi_lite/master_seq_item.sv" 21  1
 WARNING VCP2900 "Conditional expression 128>64 at 'if' statement is constant." "../CDMA_TB/axi_lite/master_seq_item.sv" 21  1
-WARNING VCP7076 "Argument BUS_BYTES should be an integer." "../CDMA_TB/common/cdma_checker.sv" 210  32
 WARNING VCP2631 "Left index of part-select is out of range." "../CDMA_TB/top/cdma_tb_top.sv" 213  35
 WARNING VCP2632 "Right index of part-select is out of range." "../CDMA_TB/top/cdma_tb_top.sv" 213  35
 WARNING VCP2631 "Left index of part-select is out of range." "../CDMA_TB/top/cdma_tb_top.sv" 223  45
 WARNING VCP2632 "Right index of part-select is out of range." "../CDMA_TB/top/cdma_tb_top.sv" 223  45
-ERROR VCP5103 "Undeclared identifier: DATA_WIDTH." "../CDMA_TB/common/cdma_checker.sv" 27  39
-FAILURE "Compile failure 1 Errors 13 Warnings  Analysis time: 9[s]."
+WARNING VCP2905 "Expression '0' yields a value that is a duplicate of another case item expression." "../CDMA_TB/cdma_reg_ral/reg_block_pkg.sv"
+MESSAGE "Unit top modules: top."
+SUCCESS "Compile success 0 Errors 13 Warnings  Analysis time: 7[s]."
+done
